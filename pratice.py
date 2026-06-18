@@ -197,14 +197,12 @@ yash patidar'''
 # z = x+y
 # print("Sum " , z)
 
-
 # x = float(input("Enter a First Len : "))
 # y = float(input("Enter a Second Len : "))
 
 # h = (x**2+y**2)**.5
 # h = (x ** 2 + y **2 )**1/2
 # print("Hypotenuse length is", h)
-
 
 
 
@@ -238,7 +236,7 @@ yash patidar'''
 #    print("Var is 11")
 # print("HEllo")   
 
-# yash  = 11 
+# # yash  = 11 
 # if yash==11:
 #     print("yash is 11")
 
@@ -448,5 +446,7 @@ counter = 0
     
 # print("height of paryamid : " , counter) 
 
-
+# git add *
+# git commit -m "Explain the commit here"
+# git push
 
