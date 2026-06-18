@@ -21,204 +21,204 @@ name = "Yash Patidar"
 profession = "Software Developer"
 exceperience = 4
 
-# print("Hello , I am", name, "I am a ",profession,"Professionaly . And I hae around", exceperience, "years of experience with it !")
+print("Hello , I am", name, "I am a ",profession,"Professionaly . And I hae around", exceperience, "years of experience with it !")
 
-# x  =5 
-# print(x,type(x))
-# x="Hello World"
-# print(x,type(x))
-# x =20
-# print(x,type(x))
-# x =20.5
-# print(x,type(x))
-# x =1j
-# print(x,type(x))
-# x = ["Apple" ,"Banana", "Cherry"]
-# print(x,type(x))
-# x = ("Apple" ,"Banana", "Cherry")
-# print(x,type(x))
-# x= range(6)
-# print(x,type(x))
-# x = {"name" ,"Jhon" ,"age " , 36 }
-# print(x,type(x))
-# x = {"Apple" ,"Banana", "Cherry"}
-# print(x,type(x))
-# x =frozenset({"Apple" ,"Banana", "Cherry"})
-# print(x,type(x))
-# x =True
-# print(x,type(x))
-# x =b"Hello"
-# print(x,type(x))
-# x=bytearray(5)
-# print(x,type(x))
-# x = memoryview(bytes(5))
-# print(x,type(x))
-# x = None
-# print(x,type(x))
+x  =5 
+print(x,type(x))
+x="Hello World"
+print(x,type(x))
+x =20
+print(x,type(x))
+x =20.5
+print(x,type(x))
+x =1j
+print(x,type(x))
+x = ["Apple" ,"Banana", "Cherry"]
+print(x,type(x))
+x = ("Apple" ,"Banana", "Cherry")
+print(x,type(x))
+x= range(6)
+print(x,type(x))
+x = {"name" ,"Jhon" ,"age " , 36 }
+print(x,type(x))
+x = {"Apple" ,"Banana", "Cherry"}
+print(x,type(x))
+x =frozenset({"Apple" ,"Banana", "Cherry"})
+print(x,type(x))
+x =True
+print(x,type(x))
+x =b"Hello"
+print(x,type(x))
+x=bytearray(5)
+print(x,type(x))
+x = memoryview(bytes(5))
+print(x,type(x))
+x = None
+print(x,type(x))
 
 #Arithmetic opretors
 
-# print("10+2", 10+2)
-# print("10-2", 10-2)
-# print("10*2", 10*2)
-# print("10/2", 10/2)
-# print("10%2", 10%2)
-# print("10//2", 10//2)
-# print("2**3", 2**3)
+print("10+2", 10+2)
+print("10-2", 10-2)
+print("10*2", 10*2)
+print("10/2", 10/2)
+print("10%2", 10%2)
+print("10//2", 10//2)
+print("2**3", 2**3)
 
 
 # Assigment opreters
 
 #compuond opreters
 
-# x=  5
-# print(x)
-# x+=3
-# print(x)
-# x-=2
-# print(x)
-# x *=3
-# print(x)
-# x /=2
-# print(x)
-# x //=3
-# print(x)
-# x**=2
-# print(x)
-# x =5
-# x %=3
-# print(x)
-# x |=2
-# print(x)
-# x ^=3
-# print(x)
+x=  5
+print(x)
+x+=3
+print(x)
+x-=2
+print(x)
+x *=3
+print(x)
+x /=2
+print(x)
+x //=3
+print(x)
+x**=2
+print(x)
+x =5
+x %=3
+print(x)
+x |=2
+print(x)
+x ^=3
+print(x)
 
 #Comparison Opreters (== , != , > ,< , >= ,<=)
-# a = 10
-# b =20
-# print("a ==b :" , a==b)
-# print("a ==10 :" , a==10)
+a = 10
+b =20
+print("a ==b :" , a==b)
+print("a ==10 :" , a==10)
 
-# print("a !=b :" , a!=b)
-# print("a !=a :" , a!=a)
+print("a !=b :" , a!=b)
+print("a !=a :" , a!=a)
 
-# print("a >b :" , a>b)
-# print("a <b :" , a<b)
-# print("a<=b:", a<=b)
-# print("a>=b:", a>=b)
-# print("a>=10:", a>=10)
+print("a >b :" , a>b)
+print("a <b :" , a<b)
+print("a<=b:", a<=b)
+print("a>=b:", a>=b)
+print("a>=10:", a>=10)
 
 #Logical Opreters (AND ,OR ,NOT)
-# x = 4
-# print(x < 5 and x <10 )
-# print(x <5 or x <4)
-# print(not(x < 5 and x <10))
-# y =4
-# print(x is y)
-# print(x is not y)
+x = 4
+print(x < 5 and x <10 )
+print(x <5 or x <4)
+print(not(x < 5 and x <10))
+y =4
+print(x is y)
+print(x is not y)
 
 #Identity Opreters (is ,is not) 
 
 # x = ["Maruti","BMW"]
-# y = ["Maruti","BMW"]
-# z =x
-# print(x is y)
-# print(x is not y)
-# print(y is z )
-# print(y is not z)
-# print(x is z)
-# print(x is not z)
+y = ["Maruti","BMW"]
+z =x
+print(x is y)
+print(x is not y)
+print(y is z )
+print(y is not z)
+print(x is z)
+print(x is not z)
 
-# x = 10 
-# y =10 
-# print(x is y)
-# print(x is not y)
+x = 10 
+y =10 
+print(x is y)
+print(x is not y)
 
-# x = ("Maruti","BMW",)
-# y =("Maruti","BMW",)
-# print(x is y)
-# print(x is not y)
+x = ("Maruti","BMW",)
+y =("Maruti","BMW",)
+print(x is y)
+print(x is not y)
 
 # Membership oprerters
 
-# x = ["Maruti","BMW"]
-# y = ["Maruti","BMW"]
-# print(x is y)
+x = ["Maruti","BMW"]
+y = ["Maruti","BMW"]
+print(x is y)
 
-# print("Maruti " in x)
-# print("Maruti " not in x)
+print("Maruti " in x)
+print("Maruti " not in x)
 
 # Bitwise opreters
-# x = 10   #    0000 1010
-# y = 20   #    0001 0100
+x = 10   #    0000 1010
+y = 20   #    0001 0100
 
-# print (x&y)  # AND opreter
-# print(x|y)   # OR opreter
-# print(x^y)   # XOR opreter
-# print(~x)    # NOT opreter
-# print(~y)    # NOT opreter
-# print(x <<2) # Left side 
-# print(y <<2) # Left side
-# print(x<<2)  # Right side
-# print(x<<2)  # Right side
+print (x&y)  # AND opreter
+print(x|y)   # OR opreter
+print(x^y)   # XOR opreter
+print(~x)    # NOT opreter
+print(~y)    # NOT opreter
+print(x <<2) # Left side 
+print(y <<2) # Left side
+print(x<<2)  # Right side
+print(x<<2)  # Right side
 
 
 #  User Input 
-# name = input("Please enter yoyr name : ")
-# print("hello" , name)
-# age = input("please enter your age :")
-# print("Hello" , name ,"Your name ", age , "Years old ")
-# phone = input("Enter your phone number :"
-# print("Contact Number " , phone)
-# email = input("Enter your email :")
-# print("email " , email)
+name = input("Please enter yoyr name : ")
+print("hello" , name)
+age = input("please enter your age :")
+print("Hello" , name ,"Your name ", age , "Years old ")
+phone = input("Enter your phone number :"
+print("Contact Number " , phone)
+email = input("Enter your email :")
+print("email " , email)
 
-# x = int(input("Enter first number: "))
-# y = int(input("Enter second number: "))
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
 
-# z = x + y
+z = x + y
 
-# print("Sum of two numbers:", z)
+print("Sum of two numbers:", z)
 
-# x = input("Enter first number: ")
-# y =int(input("Enter second number: "))
-# z = int(x)+int(y)
-# print(z)
-
-
-# x =  int(input("Enter a number :"))
-# y = int(input("Enter a number : "))
-# z = x-y
-# print("Sub " , z)
-
-# x =  5
-# input("Enter a number :")
-# y = input("Enter a number : ")
-# z = x+y
-# print("Sum " , z)
+x = input("Enter first number: ")
+y =int(input("Enter second number: "))
+z = int(x)+int(y)
+print(z)
 
 
-# x = float(input("Enter a First Len : "))
-# y = float(input("Enter a Second Len : "))
+x =  int(input("Enter a number :"))
+y = int(input("Enter a number : "))
+z = x-y
+print("Sub " , z)
 
-# h = (x**2+y**2)**.5
-# h = (x ** 2 + y **2 )**1/2
-# print("Hypotenuse length is", h)
+x =  5
+input("Enter a number :")
+y = input("Enter a number : ")
+z = x+y
+print("Sum " , z)
+
+
+x = float(input("Enter a First Len : "))
+y = float(input("Enter a Second Len : "))
+
+h = (x**2+y**2)**.5
+h = (x ** 2 + y **2 )**1/2
+print("Hypotenuse length is", h)
 
 
 
 
-# print("+----------+")
-# print("|          |")
-# print("|          |")
-# print("|          |")
-# print("|          |")
-# print("|          |")
-# print("+----------+")
+print("+----------+")
+print("|          |")
+print("|          |")
+print("|          |")
+print("|          |")
+print("|          |")
+print("+----------+")
 
-# print("+" + 10 * "-" + "+")
-# print(("|" + " " * 10 + "|\n") * 5 , end="")
-# print("+" + 10 * "-" + "+")
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5 , end="")
+print("+" + 10 * "-" + "+")
 
 # city = 'bhopal'
 # print(city[0])
