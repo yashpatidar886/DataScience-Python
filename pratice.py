@@ -1,25 +1,25 @@
-#  print("Hello MindCoders")
+  print("Hello MindCoders")
 
 # yash Patidar
 '''i 
 am 
 yash patidar'''         
 
-# print("How")
-# print("are")
-# print("you")
-# print("yash")
-# age=4
-# print(age)
-# print(type(age))
+print("How")
+print("are")
+print("you")
+print("yash")
+age=4
+print(age)
+print(type(age))
 
-# age ="Four"
-# print(age)
-# print(type(age))
+age ="Four"
+print(age)
+print(type(age))
 
-# name = "Yash Patidar"
-# profession = "Software Developer"
-# exceperience = 4
+name = "Yash Patidar"
+profession = "Software Developer"
+exceperience = 4
 
 # print("Hello , I am", name, "I am a ",profession,"Professionaly . And I hae around", exceperience, "years of experience with it !")
 
