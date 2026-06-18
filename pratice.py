@@ -451,5 +451,15 @@ yash patidar'''
 # git commit -m "Explain the commit here"
 # git push
 
+# number  = [10 ,5 ,7 ,2 ,1]
+# print(number)
+# print(type(number))
 
+# print(number[0])
+# print(number[1])
+# print(number[2])
+# print(number[3])
+# print(number[4])
 
+# number[0] = 100
+# print(number) 
