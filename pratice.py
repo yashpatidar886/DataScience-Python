@@ -446,7 +446,7 @@ while(blocks - counter > 0):
     counter +=1
     blocks = blocks - counter 
     
-# print("height of paryamid : " , counter) 
+print("height of paryamid : " , counter) 
 
 
 
