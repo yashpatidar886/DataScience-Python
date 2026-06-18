@@ -1,4 +1,4 @@
-#  print("Hello MindCoders")
+  # print("Hello MindCoders")
 
 # yash Patidar
 '''i 
@@ -56,7 +56,7 @@ yash patidar'''
 # x = None
 # print(x,type(x))
 
-#Arithmetic opretors
+# #Arithmetic opretors
 
 # print("10+2", 10+2)
 # print("10-2", 10-2)
@@ -67,9 +67,9 @@ yash patidar'''
 # print("2**3", 2**3)
 
 
-# Assigment opreters
+# # Assigment opreters
 
-#compuond opreters
+# #compuond opreters
 
 # x=  5
 # print(x)
@@ -93,7 +93,7 @@ yash patidar'''
 # x ^=3
 # print(x)
 
-#Comparison Opreters (== , != , > ,< , >= ,<=)
+# #Comparison Opreters (== , != , > ,< , >= ,<=)
 # a = 10
 # b =20
 # print("a ==b :" , a==b)
@@ -108,7 +108,7 @@ yash patidar'''
 # print("a>=b:", a>=b)
 # print("a>=10:", a>=10)
 
-#Logical Opreters (AND ,OR ,NOT)
+# #Logical Opreters (AND ,OR ,NOT)
 # x = 4
 # print(x < 5 and x <10 )
 # print(x <5 or x <4)
@@ -117,9 +117,9 @@ yash patidar'''
 # print(x is y)
 # print(x is not y)
 
-#Identity Opreters (is ,is not) 
+# #Identity Opreters (is ,is not) 
 
-# x = ["Maruti","BMW"]
+# # x = ["Maruti","BMW"]
 # y = ["Maruti","BMW"]
 # z =x
 # print(x is y)
@@ -139,7 +139,7 @@ yash patidar'''
 # print(x is y)
 # print(x is not y)
 
-# Membership oprerters
+# # Membership oprerters
 
 # x = ["Maruti","BMW"]
 # y = ["Maruti","BMW"]
@@ -148,7 +148,7 @@ yash patidar'''
 # print("Maruti " in x)
 # print("Maruti " not in x)
 
-# Bitwise opreters
+# # Bitwise opreters
 # x = 10   #    0000 1010
 # y = 20   #    0001 0100
 
@@ -163,7 +163,7 @@ yash patidar'''
 # print(x<<2)  # Right side
 
 
-#  User Input 
+# #  User Input 
 # name = input("Please enter yoyr name : ")
 # print("hello" , name)
 # age = input("please enter your age :")
@@ -393,8 +393,8 @@ yash patidar'''
 #     print("You haven't enter a number")            
         
         
-largest_number =-9999999
-counter = 0
+# largest_number =-9999999
+# counter = 0
 
 # while number != -1:
 #     if number ==-1:
@@ -445,8 +445,11 @@ counter = 0
 #     blocks = blocks - counter 
     
 # print("height of paryamid : " , counter) 
+# print("height of paryamid : " , counter)  
 
 # git add *
 # git commit -m "Explain the commit here"
 # git push
+
+
 
