@@ -463,3 +463,44 @@ yash patidar'''
 
 # number[0] = 100
 # print(number) 
+
+# number = [10 , 5, 7,2, 1]
+# print("Original list contents :" , number ) # printing ogignal list contents.
+# number[0] = 111
+# print("update list contents :" , number) #  Printing Current list contents.
+
+# print("Original list content :" , number )  # printing ogignal list contents.
+# number[1] = number[4] # copyiong value of the fifth element list content 
+# print("Update list content : " , number ) #  Printing Current list contents.
+
+# print(5)
+# print(len(number))
+# del number[1]
+# print(number)
+# print(len(number))
+
+
+
+# num = [100, 99, 105 ,113, 112]
+# print(num)
+# print(len(num))
+# del num[1]
+# print(num)
+# print(len(num))
+
+# number = [100,111,112,113 ]
+# print(number[-1])
+
+# number = [100,111,112,113 ]
+# print(number[-2])
+
+# print(number[-4])
+# print(number [len(number ) * -1 ])
+
+hat = [ 1,2,3,4,5]
+print(len(hat ))
+del hat [-1]
+print(hat)
+
+hat[len(hat)//2] = int(input("enter a interger number"))
+print(hat )
