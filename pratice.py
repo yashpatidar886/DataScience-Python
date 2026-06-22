@@ -497,10 +497,57 @@ yash patidar'''
 # print(number[-4])
 # print(number [len(number ) * -1 ])
 
-hat = [ 1,2,3,4,5]
-print(len(hat ))
-del hat [-1]
-print(hat)
+# hat = [ 1,2,3,4,5]
+# print(len(hat ))
+# del hat [-1]
+# print(hat)
 
-hat[len(hat)//2] = int(input("enter a interger number"))
-print(hat )
+# hat[len(hat)//2] = int(input("enter a interger number"))
+# print(hat )
+
+# list = [5,4,3,2,1]
+# print(list)
+# print(f'Lenth of lists : {len(list)}')
+# list.append(6)
+# print(list)
+# print(f'Lenth of lists : {len(list)}')
+  
+
+# list  = [ 111 , 7 , 2 , 1]
+# print(len(list))
+# print(list)
+
+# list.append(4)
+# print(len(list))
+# print(list)
+
+# list.insert(0,222)
+
+# print(len(list))
+# print(list)  
+  
+# list = [1,2,3,4,5,6]
+# for count in range (len(list)):
+#   print(len(list))
+
+  
+  
+# list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for count in range(len(list)):
+#  print(list[count])  
+
+# list = [1,2,3,4]
+# for list in range(1,5):
+#   print(list) 
+
+# numbers = []
+# for i in range(1, 11):
+#     numbers.append(i)
+# print(numbers)
+
+# l =[]
+# count = 1
+# while count<=10:
+#   l.append(count)
+#   count +=1
+# print(l)  
