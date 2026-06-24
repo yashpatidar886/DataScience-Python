@@ -552,7 +552,80 @@ yash patidar'''
 #   count +=1
 # print(l)  
 
-list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
-for count in range(10):
-    list[count] += 1
-print(list)
+# list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
+# for count in range(10):
+#     list[count] += 1
+# print(list)
+
+# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# total = 0
+# for i in range(len(my_list)):
+#   total += my_list[i]
+# print(total)
+ 
+# a = 10 
+# b = 20
+# print("a" , a)
+# print("b" , b)
+# a , b  = b ,a
+# print("a" , a)
+# print("b" , b)
+
+# a = 10 
+# b = 20
+# print("a" , a)
+# print("b" , b)
+# x = a
+# a = b
+# b = x
+# print("a" , a)
+# print("b" , b)
+
+
+# list = [ 10 , 1 , 8 ,3 , 5]
+# print("list")
+# list[0] , list[4] = list[4] , list[0]
+# list[1] , list[3] = list[3] , list[1]
+# print(list)
+
+
+# list = [10,20,30,40,50,60,70]
+# print(list)
+# list[0] , list[6] = list[6] , list[0]
+# list[1] , list[5] = list[5] , list[1]
+# list[2] , list[4] = list[4] , list[2]
+# print(list)
+
+# lst = [1, 2, 3, 4, 5]
+# lst.insert(1, 6)
+# del lst[0]
+# lst.append(1)
+# print(lst)
+
+
+# lst = [1, 2, 3, 4, 5]
+# lst_2 = []
+# add = 0                 #[1, 3, 6, 10, 15]
+# for number in lst:      #[1, 2, 3, 4, 5]
+#   add += number
+#   lst_2.append(add)
+# print(lst_2)
+# print(lst)
+
+
+# list = []
+# del list
+# print(list)
+
+# lst = [1, [2, 3], 4]
+# print(lst[1])
+# print(len(lst))
+
+
+# list = [1,[2,3],4]
+# print(list[1])
+# print(len(lst))
+
+
+
+
