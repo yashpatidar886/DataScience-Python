@@ -626,29 +626,32 @@ yash patidar'''
 # print(list[1])
 # print(len(lst))
 
-# my_list = [8, 10, 6, 2, 4]
-# my_list.sort
-# print(my_list)
+my_list = [8, 10, 6, 2, 4]
+my_list.sort
+print(my_list)
 
 
 
 # my_list = [8, 10, 6, 2, 4]
 
 # for i in range(len(my_list) - 1):
-#     for j in range(len(my_list) - 1 ):
+#     for j in range(len(my_list) - 1 -i ):
 #         if my_list[j] > my_list[j + 1]:
 #           my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
 
 # print(my_list)
 
 # my_list = [8, 10, 6, 2, 4]
-
+# print(my_list)
+# count = 0
 # for index1 in range(len(my_list)-1):
-#   for index in range (len(my_list)-1):
+#    for index in range (len(my_list)-1 - index1):
+#     count +=1
 #     if my_list[index] > my_list[index+1]:
-#       my_list[index] , my_list[index+1] = my_list[index+1] , my_list[index]
+#      my_list[index] , my_list[index+1] = my_list[index+1] , my_list[index]
       
-# print(my_list)      
+# print(my_list)  
+# print("My program has run for :" , count, "times")    
 
 
 
