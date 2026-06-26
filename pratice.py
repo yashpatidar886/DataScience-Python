@@ -626,9 +626,9 @@ yash patidar'''
 # print(list[1])
 # print(len(lst))
 
-my_list = [8, 10, 6, 2, 4]
-my_list.sort
-print(my_list)
+# my_list = [8, 10, 6, 2, 4]
+# my_list.sort
+# print(my_list)
 
 
 
@@ -653,7 +653,40 @@ print(my_list)
 # print(my_list)  
 # print("My program has run for :" , count, "times")    
 
+# my_list = [ 8,10,6,2,4,]
+# swap = True
+# count = 0
+# while swap:
+#   swap = False
+#   for i in range(len(my_list)-1):
+#     count +=1
+#     if my_list[i] > my_list[i+1]:
+#       swap = True
+#       my_list[i],my_list[i+1] = my_list[i+1] , my_list[i]
+# print(my_list)
+# print("Loops are running for :", count , "timmes")      
 
+# my_list = [8, 10, 6, 2, 4]
+# my_list.sort
+# print(my_list)
 
+# my_list = [8, 10, 6, 2, 4]
+# print(my_list)
+# my_list.reverse()
+# print(my_list)
+ 
+# lst = [5, 3, 1, 2, 4]
 
+# for i in range(len(lst) - 1,-1,-1 ):
+#     print(lst[i], end=" ")
+    
+    
+# lst = [5, 3, 1, 2, 4]
+# count = 0
 
+# for i in range(len(lst) // 2):
+#   count += 1
+#   lst[i], lst[len(lst) - 1 - i] = lst[len(lst) - 1 - i], lst[i]
+
+# print(lst)    
+# print("loops are running :",count , "Times")
