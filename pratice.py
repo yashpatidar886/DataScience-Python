@@ -685,8 +685,71 @@ yash patidar'''
 # count = 0
 
 # for i in range(len(lst) // 2):
-#   count += 1
+#   count += 1                  
 #   lst[i], lst[len(lst) - 1 - i] = lst[len(lst) - 1 - i], lst[i]
 
-# print(lst)    
-# print("loops are running :",count , "Times")
+# przint(lst)    
+# print("loops are running :",count , "Times") 
+
+# list =["D","F","a","A","Z"]
+# list.sort()
+# print(list)
+# print("A">"a")
+
+# a = 3
+# b = 1
+# c = 2
+# lst =[a,b,c]
+# lst.sort()
+# print(lst)
+
+# a = "A"
+# b = "B"
+# c = "C"
+# d = " "
+# lst = [a, b, c, d]
+# lst.reverse()
+# print(lst)
+
+
+# list_1 = [1]
+# list_2 = list_1   # reference copy hota value change nhi hoti hai
+# list_1[0] = 2
+# print(list_2)
+
+# a = 1
+# b= a
+# a = 2 
+# print(a)
+# print(b)
+
+
+# list_1 = [1,2,3,4]
+# list_2 = list_1[:]
+# list_1[0] = 2
+# print("list_2",list_2)
+# print("list_1",list_1)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:3]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:-1]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[-1:1]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[:3]
+# print(new_list)
+
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[3:]
+# print(new_list)
+
+
+# print(ord("A"))
