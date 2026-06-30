@@ -753,3 +753,42 @@ yash patidar'''
 
 
 # print(ord("A"))
+
+# list = [10,8,6,4,2]
+# del list[1:3]
+# print(list)
+
+
+# list = [10,8,6,4,2]
+# del list[:]
+# print(list)
+
+# my_list = [10, 8, 6, 4, 2]
+# del my_list
+# print(my_list)
+
+# my_list = [0, 3, 12, 8, 2]
+# print(5 in my_list)
+# print(5 not in my_list)
+# print(12 in my_list)
+
+# my_list = [17,3,11,5,1,9,7,15,13]
+
+# largest = my_list[0]
+# for i in my_list:
+#   if i>largest:
+#     largest = i
+# print(largest)   
+
+
+# l = []
+# for i in range(1,31): 
+#   if (i%2==0):
+#     l.append(i)   
+# print(l)
+
+# l = [i for i in range(1,31) if i%2==0]
+# print(l)
+
+    
+
