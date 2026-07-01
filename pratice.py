@@ -24,37 +24,60 @@ yash patidar'''
 # print("Hello , I am", name, "I am a ",profession,"Professionaly . And I hae around", exceperience, "years of experience with it !")
 
 # x  =5 
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x="Hello World"
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x =20
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x =20.5
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x =1j
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x = ["Apple" ,"Banana", "Cherry"]
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x = ("Apple" ,"Banana", "Cherry")
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x= range(6)
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x = {"name" ,"Jhon" ,"age " , 36 }
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x = {"Apple" ,"Banana", "Cherry"}
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x =frozenset({"Apple" ,"Banana", "Cherry"})
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x =True
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x =b"Hello"
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x=bytearray(5)
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x = memoryview(bytes(5))
-# print(x,type(x))
+# print(x)
+# print(type(x))
 # x = None
-# print(x,type(x))
+# print(x)
+# print(type(x))
+
+# x =y = z = 0
+# print(x)
+# print(y)
+# print(z)
+# a,b,c = 10,20,30
+# print(a,b,c)
 
 # #Arithmetic opretors
 
@@ -795,6 +818,4 @@ yash patidar'''
 # for i in range(len(my_list)):
 #  if my_list[i]==5:
 #         print(i) 
-        
-
         
