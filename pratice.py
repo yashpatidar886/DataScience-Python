@@ -816,6 +816,27 @@ yash patidar'''
  
 # my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # for i in range(len(my_list)):
-#  if my_list[i]==5:
+#  if my_list[i]==5:                                                                       
 #         print(i) 
-        
+
+# a = 10
+# b = 20 
+# print(a==b)
+# print(a!=b)
+# print(a<b)
+# print(a>b)
+# print(a<=b)
+# print(a>=b)
+
+# a = 20
+# b = 30
+
+# print(a<b and a == 20)
+# print(a>b and a ==20)
+
+# print(a<b or a == 20)
+# print(a>b or a == 20)
+
+# print(not(a<b and a == 20))
+# print(not(a>b and a ==20))
+
