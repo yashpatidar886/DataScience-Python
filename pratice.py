@@ -859,3 +859,17 @@ yash patidar'''
 
 # print("Maruti " in x)
 # print("Maruti " not in x)
+
+# Bitwise opreters
+x = 10   #    0000 1010
+y = 20   #    0001 0100
+
+print (x&y)  # AND opreter
+print(x|y)   # OR opreter
+print(x^y)   # XOR opreter
+print(~x)    # NOT opreter
+print(~y)    # NOT opreter
+print(x <<2) # Left side 
+print(y <<2) # Left side
+print(x<<2)  # Right side
+print(x<<2)  # Right side
