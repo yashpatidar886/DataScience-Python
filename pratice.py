@@ -854,12 +854,8 @@ yash patidar'''
 # print( x is z)
 # print( x is y )
 
+# x = ["Maruti","BMW"]
+# y = ["Maruti","BMW"]
 
-# print(x is not  y)
-#  print( x is not  z)
-# print( x is not  y )
-
-x = ["Maruti","BMW"]
-y = ["Maruti","BMW"]
-print("Maruti " in x)
-print("Maruti " not in x)
+# print("Maruti " in x)
+# print("Maruti " not in x)
