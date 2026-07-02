@@ -840,3 +840,26 @@ yash patidar'''
 # print(not(a<b and a == 20))
 # print(not(a>b and a ==20))
 
+# a = 20
+# b = 30
+
+# print( a is b)
+# print(a is not b )
+
+# x = ["Maruti","BMW"]
+# y = ["Maruti","BMW"]
+# z = x
+
+# print(x is y)
+# print( x is z)
+# print( x is y )
+
+
+# print(x is not  y)
+#  print( x is not  z)
+# print( x is not  y )
+
+x = ["Maruti","BMW"]
+y = ["Maruti","BMW"]
+print("Maruti " in x)
+print("Maruti " not in x)
