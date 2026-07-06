@@ -864,12 +864,39 @@ yash patidar'''
 x = 10   #    0000 1010
 y = 20   #    0001 0100
 
-print (x&y)  # AND opreter
-print(x|y)   # OR opreter
-print(x^y)   # XOR opreter
-print(~x)    # NOT opreter
-print(~y)    # NOT opreter
-print(x <<2) # Left side 
-print(y <<2) # Left side
-print(x<<2)  # Right side
-print(x<<2)  # Right side
+# print (x&y)  # AND opreter
+# print(x|y)   # OR opreter
+# print(x^y)   # XOR opreter
+# print(~x)    # NOT opreter
+# print(~y)    # NOT opreter
+# print(x <<2) # Left side 
+# print(y <<2) # Left side
+# print(x<<2)  # Right side
+# print(x<<2)  # Right side
+
+
+# text = ' Hello python world! '
+# # Replace
+# print(text.replace('python','Ai'))    #Hello Ai world! 
+
+
+# # Spilt and join
+# csv = ' Rahul,22,Bhopal,Enginer'
+# parts = csv.split(' ,')
+# print("Parts", parts)   #Parts [' Rahul,22,Bhopal,Enginer']
+# print(parts[0])
+# rejoined = " | ".join(parts)
+# print("rejoined" ,rejoined)
+
+
+# #check content
+
+# print('hello123'.isalnum())
+# print('12345'.isdigit())
+# print("helllo".isalpha())
+# print(" ".isspace())
+
+
+# email = "student@gmail.com"
+# print(email.endswith(".com"))
+# print(email.startswith("stu"))
