@@ -900,3 +900,20 @@ y = 20   #    0001 0100
 # email = "student@gmail.com"
 # print(email.endswith(".com"))
 # print(email.startswith("stu"))
+
+
+# name , marks , rank = "Yash" , 99.855,2
+# print(name,marks,rank)
+
+# print(F'HELLO, {name}')
+
+# print(F'Marks : {marks:.2f}')
+# print(F'Marks : {marks:.0f}')   # roundefingure
+# print(F'Marks : {100000: ,}')
+
+# print(f'{name:<15}|{marks:>8.2f}|rank{rank}')
+
+
+
+# price , gst = 500 , 0.18
+# print(f'Price:Rs.{price}  | GST:Rs.{price*gst:.2f}')
