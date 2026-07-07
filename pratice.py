@@ -946,3 +946,24 @@ y = 20   #    0001 0100
 #   larger_number = num2
  
 # print("The largest number is: ", larger_number)     
+
+# num1 = int(input("Enter a First number "))
+# num2 = int(input("Enter a Second  number "))
+# num3 = int(input("Enter a Third  number "))
+# if num1 > num2 and  num1 >num3 :larger_num = num1
+# elif   num2 >num3 and num2 >num1: larger_num = num2
+# else :  larger_num = num3
+# print("Larger number is : ", larger_num)      
+
+
+num1 = int(input("Enter a First number : "))
+num2 = int(input("Enter a Second number : "))
+num3 = int(input("Enter a Third number : "))
+
+if num1 > num2 and num1 > num3 : 
+  largest  = num1
+elif num2 > num1 and num2 > num3 :
+  largest = num2
+else :
+  largest = num3
+print("Largest number is : " , largest)    
