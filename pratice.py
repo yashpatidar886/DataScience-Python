@@ -918,19 +918,31 @@ y = 20   #    0001 0100
 # price , gst = 500 , 0.18
 # print(f'Price:Rs.{price}  | GST:Rs.{price*gst:.2f}')
 
-# Name Card Program
+# # Name Card Program
 
-first_name = input("Enter First Name: ")
-last_name = input("Enter Last Name: ")
-age = input("Enter Age: ")
-city = input("Enter City: ")
-skill = input("Enter Favourite Skill: ")
+# first_name = input("Enter First Name: ")
+# last_name = input("Enter Last Name: ")
+# age = input("Enter Age: ")
+# city = input("Enter City: ")
+# skill = input("Enter Favourite Skill: ")
 
-name = first_name + " " + last_name
+# name = first_name + " " + last_name
 
-print("=" * 50)
-print(f"{'NAME':<10}: {name}")
-print(f"{'AGE':<10}: {age} years")
-print(f"{'CITY':<10}: {city}")
-print(f"{'SKILL':<10}: {skill}")
-print("=" * 50)
+# print("=" * 50)
+# print(f"{'NAME':<10}: {name}")
+# print(f"{'AGE':<10}: {age} years")
+# print(f"{'CITY':<10}: {city}")
+# print(f"{'SKILL':<10}: {skill}")
+# print("=" * 50)
+
+
+# num1 = int(input("Enter a number : "))
+# num2 = int(input("Enter a number : "))
+
+# if num1>num2:
+#    larger_number = num1
+   
+# else:
+#   larger_number = num2
+ 
+# print("The largest number is: ", larger_number)     
