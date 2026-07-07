@@ -956,14 +956,36 @@ y = 20   #    0001 0100
 # print("Larger number is : ", larger_num)      
 
 
-num1 = int(input("Enter a First number : "))
-num2 = int(input("Enter a Second number : "))
-num3 = int(input("Enter a Third number : "))
+# num1 = int(input("Enter a First number : "))
+# num2 = int(input("Enter a Second number : "))
+# num3 = int(input("Enter a Third number : "))
 
-if num1 > num2 and num1 > num3 : 
-  largest  = num1
-elif num2 > num1 and num2 > num3 :
-  largest = num2
-else :
-  largest = num3
-print("Largest number is : " , largest)    
+# if num1 > num2 and num1 > num3 : 
+#   largest  = num1
+# elif num2 > num1 and num2 > num3 :
+#   largest = num2
+# else :
+#   largest = num3
+# print("Largest number is : " , largest)    
+
+  
+# num1 = int(input("Enter a First number "))
+# num2 = int(input("Enter a Second  number "))
+# num3 = int(input("Enter a Third  number "))
+
+# largest_num = max(num1,num2,num3)
+# minmum = min(num1,num2,num3)
+# print("Largest  number is : ", largest_num)  
+# print("Minimum number is  " ,minmum)
+
+
+
+
+# user = str(input("Enter a sentence : "))
+
+# if user == "Spathiphyllum":
+#   print("Yes - Spathiphyllum is the best plant ever!")
+# elif user=="spathiphyllum":
+#   print("No, I want a big Spathiphyllum!")
+# else:
+#   print("Spathiphyllum! Not", user + "!")
