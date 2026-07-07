@@ -988,4 +988,20 @@ y = 20   #    0001 0100
 # elif user=="spathiphyllum":
 #   print("No, I want a big Spathiphyllum!")
 # else:
-#   print("Spathiphyllum! Not", user + "!")
+#   print("Spathiphyllum! Not", user "!")
+
+
+# while True:
+#   print("I am stuck in loop")
+
+
+num =  int(input("Enter a number or type -1 to stop"))
+while num != -1:
+   if num > largest_number :
+     largest_number = num 
+   num =  int(input("Enter a number or type -1 to stop"))
+print("largest number is :",largest_number)    
+
+   
+       
+       
