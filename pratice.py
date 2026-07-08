@@ -1013,6 +1013,17 @@ y = 20   #    0001 0100
 #     number =  int(input("Enter a number : "))     
 # print("Even :" , even_count)
 # print("odd :" , odd_count)        
-     
-       
-       
+
+# counter = 0
+# while counter < 100:
+#   print(counter)
+#   counter += 1
+  
+# for i in range(100):
+#      print(i)
+
+exit = 1
+
+while exit != 0:
+  exit = int(input("Enter a number"))
+  print(exit)
