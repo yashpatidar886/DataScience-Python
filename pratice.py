@@ -1022,8 +1022,15 @@ y = 20   #    0001 0100
 # for i in range(100):
 #      print(i)
 
-exit = 1
+# exit = 1
 
-while exit != 0:
-  exit = int(input("Enter a number"))
-  print(exit)
+# while exit != 0:
+#   exit = int(input("Enter a number"))
+#   print(exit)
+
+# for counter in range(10):
+#   print("The value of counter is currently " , counter )
+
+
+# for counter in range(2,8,3):
+  # print("The value of counter is currently " , counter )
