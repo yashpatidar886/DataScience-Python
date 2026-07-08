@@ -1071,9 +1071,26 @@ y = 20   #    0001 0100
 # print("Outside the loop")     
     
     
-print("The break instructions : ")
-for counter in range (1,6):
-    if counter == 3:
-     continue
-    print("Inside the loop",counter)
-print("Outside the loop")  
+# print("The break instructions : ")
+# for counter in range (1,6):
+#     if counter == 3:
+#      continue
+#     print("Inside the loop",counter)
+# print("Outside the loop")  
+
+largest_number = -9999999
+counter = 0
+
+while True:
+  number = int(input("Enter a number or typr -1 to stop the program : "))
+  if number == -1:
+    break
+  counter +=1
+  if number > largest_number:
+    largest_number = number
+if counter != 0:
+  print("The largest number is ",largest_number)
+else:
+  print("You haven't entered any number ")  
+  
+       
