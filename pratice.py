@@ -1032,5 +1032,33 @@ y = 20   #    0001 0100
 #   print("The value of counter is currently " , counter )
 
 
-# for counter in range(2,8,3):
+# for counter in range(2,1):
   # print("The value of counter is currently " , counter )
+
+
+# power = 1
+# for expo in range(16):
+#  print("2 to the power of", expo, "is", power)
+#  power *= 2
+
+# import time
+# for counter in range(5):
+#   print(counter, "Mississippi")
+#   time.sleep(1)
+# print("Ready or not, here I come!")
+
+# power = 1
+# for expo in range(16):
+#   if expo ==7:
+#     continue
+#   print("2 to the power of", expo, "is", power)
+#   power *=2
+
+# power = 1
+# for expo in range(16):
+#  print("2 to the power of", expo, "is", power)
+#  power *= 2
+#  if expo == 5:
+#   break
+# print("--------Now I am out------------")
+    
