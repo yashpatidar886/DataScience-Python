@@ -1110,25 +1110,54 @@ numbers [0] = address in number + (size of element * index)
               
 """       
 
-numbers = [ 10 ,5, 7, 2, 1]
-print(numbers)
-print(type(numbers))
+# numbers = [ 10 ,5, 7, 2, 1]
+# print(numbers)
+# print(type(numbers))
 
-print(numbers[0])
-print(numbers[1])
-print(numbers[2])
-print(numbers[3])
-print(numbers[4])
+# print(numbers[0])
+# print(numbers[1])
+# print(numbers[2])
+# print(numbers[3])
+# print(numbers[4])
 
-numbers[3] = 20
-print(numbers)
+# numbers[3] = 20
+# print(numbers)
 
-numbers[2] = numbers[0]
-print(numbers)
+# numbers[2] = numbers[0]
+# print(numbers)
 
 
-numbers[2],numbers[1] = numbers[1] ,numbers[2]
-print(numbers)
+# numbers[2],numbers[1] = numbers[1] ,numbers[2]
+# print(numbers)
 
-del numbers[4]
-print(numbers)
+# print(len(numbers))
+
+# del numbers[4]
+# print(numbers)
+
+# print(len(numbers))
+
+
+# print(numbers[-1])
+# print(numbers[-2])
+# print(numbers[-3])
+# print(numbers[-4])
+
+# print(id(numbers))
+# print(hex(id(numbers)))
+# print(hex(id(numbers[0])))
+# print(hex(id(numbers[1])))
+# print(hex(id(numbers[2])))
+# print(hex(id(numbers[3])))
+
+
+
+
+
+hat = [1,2,3,4,5]
+print(len(hat))
+del hat [-1]
+print(hat)
+
+hat[len(hat)//2] = int(input("Enter a interger number"))
+print(hat)
