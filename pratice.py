@@ -1078,19 +1078,29 @@ y = 20   #    0001 0100
 #     print("Inside the loop",counter)
 # print("Outside the loop")  
 
-largest_number = -9999999
-counter = 0
+# largest_number = -9999999
+# counter = 0
 
-while True:
-  number = int(input("Enter a number or typr -1 to stop the program : "))
-  if number == -1:
-    break
-  counter +=1
-  if number > largest_number:
-    largest_number = number
-if counter != 0:
-  print("The largest number is ",largest_number)
-else:
-  print("You haven't entered any number ")  
+# while True:
+#   number = int(input("Enter a number or typr -1 to stop the program : "))
+#   if number == -1:
+#     break
+#   counter +=1
+#   if number > largest_number:
+#     largest_number = number
+# if counter != 0:
+#   print("The largest number is ",largest_number)
+# else:
+#   print("You haven't entered any number ") 
   
-       
+  
+# i = 1
+# j = not not i 
+# print(i)
+# print(j)
+
+"""
+Truthy  = 1, 2, 3, 4, -1, -20, -50, -999, "Hello", [1,2],  {1:1}, " "
+Falsy = 0 ,"" , [] , {} , null , NONE
+
+"""
