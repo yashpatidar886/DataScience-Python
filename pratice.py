@@ -1103,4 +1103,32 @@ y = 20   #    0001 0100
 Truthy  = 1, 2, 3, 4, -1, -20, -50, -999, "Hello", [1,2],  {1:1}, " "
 Falsy = 0 ,"" , [] , {} , null , NONE
 
-"""
+
+numbers [0] = address in number + (size of element * index)
+              0x000o                (2 *0) == 0x0000  
+              0x0000                (2*1)  == 0x0002                
+              
+"""       
+
+numbers = [ 10 ,5, 7, 2, 1]
+print(numbers)
+print(type(numbers))
+
+print(numbers[0])
+print(numbers[1])
+print(numbers[2])
+print(numbers[3])
+print(numbers[4])
+
+numbers[3] = 20
+print(numbers)
+
+numbers[2] = numbers[0]
+print(numbers)
+
+
+numbers[2],numbers[1] = numbers[1] ,numbers[2]
+print(numbers)
+
+del numbers[4]
+print(numbers)
