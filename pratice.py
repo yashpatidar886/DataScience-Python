@@ -1154,10 +1154,27 @@ numbers [0] = address in number + (size of element * index)
 
 
 
-hat = [1,2,3,4,5]
-print(len(hat))
-del hat [-1]
-print(hat)
+# hat = [1,2,3,4,5]
+# print(len(hat))
+# del hat [-1]
+# print(hat)
 
-hat[len(hat)//2] = int(input("Enter a interger number"))
-print(hat)
+# hat[len(hat)//2] = int(input("Enter a interger number"))
+# print(hat)
+
+
+# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
+# for i in range(10):
+#  my_list[i] += 1
+# print(my_list)
+
+ 
+
+# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# total = 0
+# for i in my_list:
+#     total += i
+# print(total)
+
+
+  
