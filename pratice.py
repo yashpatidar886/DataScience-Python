@@ -1177,4 +1177,32 @@ numbers [0] = address in number + (size of element * index)
 # print(total)
 
 
-  
+# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# index  = 0
+# for abc in my_list:
+#   print("my_list [" ,index, "]  => " ,abc )
+#   index += 1
+
+# a = 10
+# b = 20
+
+# print("a:" , a)
+# print("b:" , b)
+
+# print("_________")
+# # x = a
+# # a = b
+# # b = x
+
+# a,b = b,a
+
+# print("a:" , a)
+# print("b:" , b)
+
+# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# print(my_list)
+
+# # SWAP A VALUE - 2nd and 5th values
+
+# my_list[1],my_list[4] = my_list[4] , my_list[1]
+# print(my_list)
