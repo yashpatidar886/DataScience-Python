@@ -1206,3 +1206,25 @@ numbers [0] = address in number + (size of element * index)
 
 # my_list[1],my_list[4] = my_list[4] , my_list[1]
 # print(my_list)
+
+# my_list= [8,10,6,2,4,]
+# swap = True
+# count = 0
+# while swap:
+#   swap = False
+#   for i in range(len(my_list)-1):
+#     count +=1
+#     if my_list[i] > my_list[i+1]:
+#       swap = True
+#       my_list[i],my_list[i+1] = my_list[i+1] , my_list[i]
+# print(my_list)
+# print("Loops are running for :", count , "timmes")  
+
+# list = [8,10,6,2,4,]
+# print(list)
+# for i in range(len(list)-1):
+#   for  i1 in range(len(list)-1):
+#     if list[i1]> list[i1 +1]:
+#       list[i1] , list[i1 +1] = list[i1 +1] , list[i1 ]
+      
+# print(list)      
