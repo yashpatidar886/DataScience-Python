@@ -727,7 +727,7 @@ yash patidar'''
 # print(lst)
 
 # a = "A"
-# b = "B"
+# b = b"B"
 # c = "C"
 # d = " "
 # lst = [a, b, c, d]
@@ -1158,7 +1158,6 @@ numbers [0] = address in number + (size of element * index)
 # print(len(hat))
 # del hat [-1]
 # print(hat)
-
 # hat[len(hat)//2] = int(input("Enter a interger number"))
 # print(hat)
 
@@ -1222,9 +1221,35 @@ numbers [0] = address in number + (size of element * index)
 
 # list = [8,10,6,2,4,]
 # print(list)
+# # count = 0
 # for i in range(len(list)-1):
 #   for  i1 in range(len(list)-1):
 #     if list[i1]> list[i1 +1]:
 #       list[i1] , list[i1 +1] = list[i1 +1] , list[i1 ]
+#     count +=1 
+# print(list)
+# print("Loops are running for :", count , "timmes") 
       
-# print(list)      
+      
+
+# list = [8,10,6,2,4,]
+# print(list)
+# count = 0
+# for i in range(len(list)-1):
+#   for  i1 in range(len(list)-1 -i):
+#     if list[i1]> list[i1 +1]:
+#       list[i1] , list[i1 +1] = list[i1 +1] , list[i1 ]
+#     count +=1 
+# print(list)
+# print("Loops are running for :", count , "timmes")       
+"""
+DRY RUN 
+current list [ 8,10,6,2,4]
+index(0-3)     0
+index1 (0-3)   0  1  2  3 
+
+
+
+"""
+
+      
