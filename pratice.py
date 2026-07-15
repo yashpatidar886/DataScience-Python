@@ -1301,3 +1301,21 @@ index1 (0-3)   0  1  2  3
 # del list_1[0]
 # del list_2[0]
 # print(list_3)
+
+
+# row = []
+# for i in range(8):
+#   row.append("WHITE_PAWN")
+# print(row)  
+
+# row = ["WHITE_PAWN" for i in range(8)]
+# print(row)
+
+# square = [ x ** 2 for x in range(10)]
+# print(square)
+
+# twos = [ 2 ** i for i in range(8)]
+# print(twos)
+
+# odds = [x for x in square if x % 2 != 0 ]
+# print(odds)
