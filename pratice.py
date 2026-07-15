@@ -775,7 +775,7 @@ yash patidar'''
 # print(new_list)
 
 
-# print(ord("A"))
+# print(ord("A"))   # ord is print ASCII value of an element
 
 # list = [10,8,6,4,2]
 # del list[1:3]
@@ -1251,5 +1251,23 @@ index1 (0-3)   0  1  2  3
 
 
 """
+# my_list = [8,10,6,2,4]
+# my_list.sort
+# print(my_list)
 
-      
+# my_list = [8,10,6,2,4]
+# print(my_list)
+# my_list.reverse()
+# print(my_list)
+
+# lst = ['D','F','A' ,'E']
+# lst.sort()
+# print(lst)
+
+
+
+# my_list = [0, 3, 12, 8, 2]
+# print(5 in my_list)
+# print(5 not in my_list)
+# print(12 in my_list)
+
