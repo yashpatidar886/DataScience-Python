@@ -981,6 +981,7 @@ y = 20   #    0001 0100
 
 
 
+
 # user = str(input("Enter a sentence : "))
 
 # if user == "Spathiphyllum":
@@ -1271,3 +1272,32 @@ index1 (0-3)   0  1  2  3
 # print(5 not in my_list)
 # print(12 in my_list)
 
+# list_1 = ["A", "B", "C"]
+# list_2 = list_1
+# list_3 = list_2
+# del list_1[0]
+# del list_2[0]
+# print(list_3)
+
+
+
+# list_1 = ["A", "B", "C"]
+# list_2 = list_1
+# list_3 = list_2
+# del list_1[0]
+# del list_2
+# print(list_3)
+
+# list_1 = ["A", "B", "C"]
+# list_2 = list_1
+# list_3 = list_2
+# del list_1[0]
+# del list_2[:]
+# print(list_3)
+
+# list_1 = ["A", "B", "C"]
+# list_2 = list_1[:]
+# list_3 = list_2[:]
+# del list_1[0]
+# del list_2[0]
+# print(list_3)
