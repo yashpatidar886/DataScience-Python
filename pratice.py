@@ -1319,3 +1319,9 @@ index1 (0-3)   0  1  2  3
 
 # odds = [x for x in square if x % 2 != 0 ]
 # print(odds)
+
+board = []
+for i in range(8):
+    row=["EMPTY" for i in range(8)]
+    board.append(row)
+print(board)    
