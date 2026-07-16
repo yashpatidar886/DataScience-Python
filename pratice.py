@@ -1320,8 +1320,37 @@ index1 (0-3)   0  1  2  3
 # odds = [x for x in square if x % 2 != 0 ]
 # print(odds)
 
-board = []
-for i in range(8):
-    row=["EMPTY" for i in range(8)]
-    board.append(row)
-print(board)    
+# board = []
+# for i in range(8):
+#     row=["EMPTY" for i in range(8)]
+#     board.append(row)
+# print(board) 
+
+
+
+"""
+cafe management
+
+Dev - Devlopment / Dev Enviroment    dev.cafemanagement.com
+Testing - Stage Enviroment           stage.cafemanagement.com
+Client Testing - UAT Enviroment      uat.cafemanagement.com
+User - Production Enviroment         cafemanagement.com
+
+Dev   - Development branch
+      - feature/v1.0/yash
+      - bugfix/v1.1/yash
+|
+stage - stage branch
+|
+uat   - uat branch
+|
+Prod  - main branch
+     
+get fetch - show all change ( get fetch snemcronize remote reporitry nad remote  main brach
+)
+git branch
+git checkout development (ye )
+git checkout  -b (ye devlopment barnch ke anndar ek new barnch banna deta hai or sub branch we switch kar deta hai)
+
+
+"""
