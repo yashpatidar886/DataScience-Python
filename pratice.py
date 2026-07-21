@@ -1357,5 +1357,80 @@ git checkout  -b (ye devlopment barnch ke anndar ek new barnch banna deta hai or
 
 
 
-print("Yash PAtidar")
-print("HEloo ")
+# print("Yash PAtidar")
+# print("HEloo ")
+
+
+
+# board = []
+# for i in range(8):
+#     row=["EMPTY" for i in range(8)]
+#     board.append(row)
+# # print(board) 
+
+# board[0][0] = "ROOK"
+# board[0][7] = "ROOK"
+# board[7][0] = "ROOK"
+# board[7][7] = "ROOK"
+
+# board[0][1] = "KNIGHT"
+# board[0][6] = "KNIGHT"
+# board[7][1] = "KNIGHT"
+# board[7][6] = "KNIGHT"
+
+
+# for index in range(len(board)):
+#   print(board[index])
+
+# temps = [ [ 0.0 for h in range (24)] for d in range(31) ]
+# # print(temps)
+
+# random = [ 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34,  12]
+
+# print(len(random))
+
+# for  i in range(len(temps)):
+#   temps[i][11] = random[i]
+
+
+# for i in range(len(temps)):
+#   print(temps[i])
+
+
+# # calculate the average tempertaure of the month.
+# # total = 0.0
+# # for day in temps:
+# #  total += day[11]
+# # average = total / 31
+# # print("Average temperature at noon:", average)
+
+# sum = 0 
+# for  i in range(len(temps)):
+#       sum += temps[i][11] 
+# print(sum/31)      
+
+#  # highest temperature during the whole month
+# # highest = -100.0
+# # for day in temps:
+# #  for temp in day:
+# #    if temp > highest:
+# #     highest = temp
+# # print("The highest temperature was:", highest) 
+# highest = 0
+# for  i in range(len(temps)):
+#   for inner_i in range(len(temps[i])):
+#     if highest < temps[i][inner_i]:
+#       highest = temps[i][inner_i]
+
+# print("The highest temperature was:", highest)
+
+
+# # lowest temperature during the whole month
+# lowest = 0 
+# for  i in range(len(temps)):
+#   for inner_i in range(len(temps[i])):
+#     if lowest > temps[i][inner_i]:
+#       lowest = temps[i][inner_i]
+      
+# print("The lowest temperature was:" ,lowest)      
+
