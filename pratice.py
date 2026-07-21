@@ -1434,3 +1434,13 @@ git checkout  -b (ye devlopment barnch ke anndar ek new barnch banna deta hai or
       
 # print("The lowest temperature was:" ,lowest)      
 
+
+
+# rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
+# # print(rooms)
+# for building_inner in range(len(rooms)):
+#   print("Building" , building_index +1)
+#   for floor_index in range(len(rooms[building_index])):
+#       print("Floor , floor_index +1")
+#       print(rooms[building_index][floor_index])
+    
