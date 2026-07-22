@@ -1442,5 +1442,29 @@ git checkout  -b (ye devlopment barnch ke anndar ek new barnch banna deta hai or
 #   print("Building" , building_index +1)
 #   for floor_index in range(len(rooms[building_index])):
 #       print("Floor , floor_index +1")
-#       print(rooms[building_index][floor_index])
-    
+      # print(rooms[building_index][floor_index])
+      
+# #  in the second building, on the tenth floor, room 14:
+# rooms[1][9][13] = True
+# # release the second room on the fifth floor located in the first building:
+# rooms[0][4][1] = False
+
+# # Check if there are any vacancies on the 15th floor of the third building:
+
+"""
+building  1     [2]
+floors    1     [14]
+rooms     20    [20]
+"""
+rooms[2][14][0] = True
+rooms[2][14][1] = True
+rooms[2][14][2] = True
+rooms[2][14][3] = True
+rooms[2][14][4] = True
+rooms[2][14][5] = True
+rooms[2][14][6] = True
+
+
+temp = -1
+for room_index in range(len(rooms[2][14])):
+  if rooms[2][]
