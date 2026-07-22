@@ -1456,15 +1456,24 @@ building  1     [2]
 floors    1     [14]
 rooms     20    [20]
 """
-rooms[2][14][0] = True
-rooms[2][14][1] = True
-rooms[2][14][2] = True
-rooms[2][14][3] = True
-rooms[2][14][4] = True
-rooms[2][14][5] = True
-rooms[2][14][6] = True
+# rooms[2][14][0] = True
+# rooms[2][14][1] = True
+# rooms[2][14][2] = True
+# rooms[2][14][3] = True
+# rooms[2][14][4] = True
+# rooms[2][14][5] = True
+# rooms[2][14][6] = True                                      
 
 
-temp = -1
-for room_index in range(len(rooms[2][14])):
-  if rooms[2][]
+# temp = -1
+# for room_index in range(len(rooms[2][14])):
+#   if rooms[2][14][room_index] == False:
+#     temp = room_index
+#     break
+#   print(rooms[2][14][room_index])
+  
+# if temp == -1:
+#   print("No Rooms Avaiable !")
+# else:
+#   print(f'{temp+1}th Room is available')    
+  
