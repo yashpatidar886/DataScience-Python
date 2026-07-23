@@ -1476,4 +1476,126 @@ rooms     20    [20]
 #   print("No Rooms Avaiable !")
 # else:
 #   print(f'{temp+1}th Room is available')    
+ 
+ 
+# MODULE- 4    FUNCTIONS
+
+# def message():
+#   print("Enter a value")
+#   a = int(input())
+#   print(a)
+
+# message()  
+# message()
+# message()
+
+
+# print("Enter a value")
+# a = int(input())
+# print(a)
+
+
+# print("Enter a value")
+# b = int(input())
+# print(b)
+
+
+# print("Enter a value")
+# c = int(input())
+# print(c)
+
+
+# def message ():
+#   print("Enter  next value : ")
+# print("We start here. ") 
+# message()
+# print("The end is here ") 
+
+
+# print("We start here. ") 
+# message()
+# print("The end is here ") 
+# def message ():
+#    print("Enter  next value : ")
+
+
+
+# def message():
+#   print("Enter a value")
+#   return
+#   a = int(input())
+ 
+# a = message()
+
+# print(message())
+
+# message()  
+
+
+
+# def hi (num ):                #parameter = num
+#   print("hi")
+# hi(5)                         # arugment
+
+
+# def hello(n):                              # defining a function
+#   print("Hello " ,  n)                       # body of the function 
   
+# name = input("Enter your name : ")
+# hello(name)                                # calling ths function
+
+# def message(num):
+#   print("Number " , number )
+#   print("Num " , num )
+  
+# number = 1234
+# message(1)
+# print(number)  
+
+
+# def message(what , number):
+#   print("Enter " , what , "Number" , number )
+  
+# message("telephone" , 11)
+# message("price" , 5)
+# message("number", "number")  
+
+
+# def introduction(first_name , last_name):
+#   print("Hello my name is " , first_name,last_name)
+  
+# introduction("yash","patidar")
+# introduction("Mohit" , "Patidar")
+# introduction("Vinay" , "Patidar")  
+
+
+# def introduction(first_name , last_name):
+#   print("Hello my name is " , first_name,last_name)
+  
+# introduction("patidar","yash")
+# introduction("Patidar","Mohit")
+# introduction("Patidar","Vinay")  
+
+# def print_grade(name , marks):
+#   grade = ""
+#   if marks < 50:
+#     grade = "D"
+#   elif marks < 60:
+#     grade = "C" 
+#   elif marks <75 :
+#    grade = "B"  
+#   elif marks < 90:
+#     grade = "A"
+#   elif marks > 90:
+#     grade = "A+" 
+#   print(f'Hello {name}, your Grade from {marks} is {grade} !') 
+  
+  
+# print_grade("Kaushal",0)   
+# print_grade("Dipesh",80)
+# print_grade("Harshit",70)
+# print_grade("Harshraj",60)
+# print_grade("Yashraj",95)
+# print_grade("Mohit",55)
+# print_grade(55,"Mohit")                           # in this line we typeerror we use first marks then name
+    
