@@ -1619,3 +1619,22 @@ rooms     20    [20]
 # adding(3 , a = 1 , b = 2)    # error 
 
 
+# def happy_new_year(wishes = True):
+#   print("Three ..... ")
+#   print("Two ..... ")
+#   print("One.......")
+#   if not wishes:
+#     return
+#   print("Happy New Year !")
+
+# happy_new_year()
+# happy_new_year(False)  
+
+
+
+def boring_function():
+  return 123                      # in return 123 ye wasap return nahi behje ja kyuki ab return ke andar value store hai 
+
+x = boring_function()
+
+print("The boring_function has returned its result. It's : " , x )
