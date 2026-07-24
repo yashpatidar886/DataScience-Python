@@ -1632,9 +1632,61 @@ rooms     20    [20]
 
 
 
-def boring_function():
-  return 123                      # in return 123 ye wasap return nahi behje ja kyuki ab return ke andar value store hai 
+# def boring_function():
+#   return 123                      # in return 123 ye wasap return nahi behje ja kyuki ab return ke andar value store hai 
 
-x = boring_function()
+# x = boring_function()
 
-print("The boring_function has returned its result. It's : " , x )
+# print("The boring_function has returned its result. It's : " , x )
+
+
+
+# print(None+2)
+
+# value = None
+# if value is None:
+#   print("Sorry you don't carry anr value ")
+  
+# value  = input("Enter  NONE ")
+# if value == "":
+#   value = None
+# print(value)
+# print(type(value))  
+  
+  
+# def strange_functions(n):
+#   if(n%2 == 0):
+#     return True
+  
+# print(strange_functions(2))
+# print(strange_functions(1))        # if statment is not True it return NONE
+
+# kabhi ek se jada functions print karna ho to list ke aandar dal do 
+
+
+
+# def list_sum(lst):
+#   s = 0 
+#   for elem in lst :
+#    s += elem
+#   return s
+# print(list_sum([5,4,3,2,1])) 
+
+# def strange_list_fun(n):
+#   strange_list = []
+  
+#   for i  in range(0,n):
+#     strange_list.insert(0,i)
+#   return strange_list
+# print(strange_list_fun(5))   
+
+
+"""
+                   DRY RUN
+    i   0  1  2  3   4
+    []  4  3  2  1   0              
+"""
+
+
+
+  
