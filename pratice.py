@@ -1599,3 +1599,23 @@ rooms     20    [20]
 # print_grade("Mohit",55)
 # print_grade(55,"Mohit")                           # in this line we typeerror we use first marks then name
     
+    
+# def introductions(fisrt_name ,last_name="NA"):
+#   print("Hello , my name is ", fisrt_name , last_name)
+  
+# introductions(fisrt_name = "yash" , last_name= "Patidar")
+# introductions(last_name= "Patidar" , fisrt_name= "Vinay")
+# introductions("Patidar","Vinay")
+# introductions("Ram")
+# introductions("Ram" , "Patidar")      
+
+# def adding(a,b,c):
+#     print(a, "+" , b, "+" ,  c,"=" , a + b + c)
+  
+# adding(1,2,3)
+# adding(c = 1 , a = 2 , b =3 )
+# adding( 3, c =1 , b =2 )
+# adding(a = 1 , 3 , b =2)     # error (due to element 3 because it in wrong order)  
+# adding(3 , a = 1 , b = 2)    # error 
+
+
