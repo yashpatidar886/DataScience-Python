@@ -1434,3 +1434,188 @@ git checkout  -b (ye devlopment barnch ke anndar ek new barnch banna deta hai or
       
 # print("The lowest temperature was:" ,lowest)      
 
+
+
+# rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
+# # print(rooms)
+# for building_inner in range(len(rooms)):
+#   print("Building" , building_index +1)
+#   for floor_index in range(len(rooms[building_index])):
+#       print("Floor , floor_index +1")
+      # print(rooms[building_index][floor_index])
+      
+# #  in the second building, on the tenth floor, room 14:
+# rooms[1][9][13] = True
+# # release the second room on the fifth floor located in the first building:
+# rooms[0][4][1] = False
+
+# # Check if there are any vacancies on the 15th floor of the third building:
+
+"""
+building  1     [2]
+floors    1     [14]
+rooms     20    [20]
+"""
+# rooms[2][14][0] = True
+# rooms[2][14][1] = True
+# rooms[2][14][2] = True
+# rooms[2][14][3] = True
+# rooms[2][14][4] = True
+# rooms[2][14][5] = True
+# rooms[2][14][6] = True                                      
+
+
+# temp = -1
+# for room_index in range(len(rooms[2][14])):
+#   if rooms[2][14][room_index] == False:
+#     temp = room_index
+#     break
+#   print(rooms[2][14][room_index])
+  
+# if temp == -1:
+#   print("No Rooms Avaiable !")
+# else:
+#   print(f'{temp+1}th Room is available')    
+ 
+ 
+# MODULE- 4    FUNCTIONS
+
+# def message():
+#   print("Enter a value")
+#   a = int(input())
+#   print(a)
+
+# message()  
+# message()
+# message()
+
+
+# print("Enter a value")
+# a = int(input())
+# print(a)
+
+
+# print("Enter a value")
+# b = int(input())
+# print(b)
+
+
+# print("Enter a value")
+# c = int(input())
+# print(c)
+
+
+# def message ():
+#   print("Enter  next value : ")
+# print("We start here. ") 
+# message()
+# print("The end is here ") 
+
+
+# print("We start here. ") 
+# message()
+# print("The end is here ") 
+# def message ():
+#    print("Enter  next value : ")
+
+
+
+# def message():
+#   print("Enter a value")
+#   return
+#   a = int(input())
+ 
+# a = message()
+
+# print(message())
+
+# message()  
+
+
+
+# def hi (num ):                #parameter = num
+#   print("hi")
+# hi(5)                         # arugment
+
+
+# def hello(n):                              # defining a function
+#   print("Hello " ,  n)                       # body of the function 
+  
+# name = input("Enter your name : ")
+# hello(name)                                # calling ths function
+
+# def message(num):
+#   print("Number " , number )
+#   print("Num " , num )
+  
+# number = 1234
+# message(1)
+# print(number)  
+
+
+# def message(what , number):
+#   print("Enter " , what , "Number" , number )
+  
+# message("telephone" , 11)
+# message("price" , 5)
+# message("number", "number")  
+
+
+# def introduction(first_name , last_name):
+#   print("Hello my name is " , first_name,last_name)
+  
+# introduction("yash","patidar")
+# introduction("Mohit" , "Patidar")
+# introduction("Vinay" , "Patidar")  
+
+
+# def introduction(first_name , last_name):
+#   print("Hello my name is " , first_name,last_name)
+  
+# introduction("patidar","yash")
+# introduction("Patidar","Mohit")
+# introduction("Patidar","Vinay")  
+
+# def print_grade(name , marks):
+#   grade = ""
+#   if marks < 50:
+#     grade = "D"
+#   elif marks < 60:
+#     grade = "C" 
+#   elif marks <75 :
+#    grade = "B"  
+#   elif marks < 90:
+#     grade = "A"
+#   elif marks > 90:
+#     grade = "A+" 
+#   print(f'Hello {name}, your Grade from {marks} is {grade} !') 
+  
+  
+# print_grade("Kaushal",0)   
+# print_grade("Dipesh",80)
+# print_grade("Harshit",70)
+# print_grade("Harshraj",60)
+# print_grade("Yashraj",95)
+# print_grade("Mohit",55)
+# print_grade(55,"Mohit")                           # in this line we typeerror we use first marks then name
+    
+    
+# def introductions(fisrt_name ,last_name="NA"):
+#   print("Hello , my name is ", fisrt_name , last_name)
+  
+# introductions(fisrt_name = "yash" , last_name= "Patidar")
+# introductions(last_name= "Patidar" , fisrt_name= "Vinay")
+# introductions("Patidar","Vinay")
+# introductions("Ram")
+# introductions("Ram" , "Patidar")      
+
+# def adding(a,b,c):
+#     print(a, "+" , b, "+" ,  c,"=" , a + b + c)
+  
+# adding(1,2,3)
+# adding(c = 1 , a = 2 , b =3 )
+# adding( 3, c =1 , b =2 )
+# adding(a = 1 , 3 , b =2)     # error (due to element 3 because it in wrong order)  
+# adding(3 , a = 1 , b = 2)    # error 
+
+
