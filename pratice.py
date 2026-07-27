@@ -1729,13 +1729,75 @@ rooms     20    [20]
 # print(var)
 
 
-var = 2
-print(var)                   # output = 2
+# var = 2
+# print(var)                   # output = 2
 
-def return_var():
-  global var 
-  var = 5 
-  return var
+# def return_var():
+#   global var 
+#   var = 5 
+#   return var
 
-print(return_var())  
-print(var)  
+# print(return_var())  
+# print(var)  
+
+# def my_functions(n):
+#   print("I got " , n)
+#   n += 1
+#   print("I have " , n)
+  
+# var =1 
+# my_functions(var)
+# print(var)  
+
+# def my_fun(my_list_1):         # local
+#   print("Print #1",my_list_1)  # local 
+#   print("Print #2",my_list_2)  #Global
+#   my_list_1 = [0,1]
+#   print("Print #3",my_list_1)  #local
+#   print("Print #4",my_list_2)  #global
+  
+# my_list_2 = [2,3]              # Global 
+# my_fun(my_list_2)
+# print("Print #5", my_list_2 )
+
+
+
+# def my_fun(my_list_1):         # local
+#   print("Print #1",my_list_1)  # local 
+#   print("Print #2",my_list_2)  #Global
+#   del my_list_1[0]
+#   print("Print #3",my_list_1)  #local
+#   print("Print #4",my_list_2)  #global
+  
+# my_list_2 = [2,3]              # Global 
+# my_fun(my_list_2)
+# print("Print #5", my_list_2 )
+
+# def my_fun(my_list_1):         # local
+#   print("Print #1",my_list_1)  # local 
+#   print("Print #2",my_list_2)  #Global
+#   del my_list_1[0]
+#   print("Print #3",my_list_1)  #local
+#   print("Print #4",my_list_2)  #global
+  
+# my_list_2 = [2,3]              # Global 
+# my_fun(my_list_2)
+# print("Print #5", my_list_2 )
+
+
+# def my_fun(my_list_1):         # local
+#   print("Print #1",my_list_1)  # local 
+#   print("Print #2",my_list_2)  #Global
+#   del my_list_1[0]
+#   del v
+#   print("Print #3",my_list_1)  #local
+#   print("Print #4",my_list_2)  #global
+  
+# my_list_2 = [2,3]              # Global 
+# my_fun(my_list_2)
+# print("Print #5", my_list_2 )
+
+
+
+
+ 
