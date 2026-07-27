@@ -1688,5 +1688,54 @@ rooms     20    [20]
 """
 
 
+# def scope_test():
+#   x = 123
+# scope_test()
+# # print(x) 
 
+# def my_function():
+#   print("Do I Know that variable ? " , var )
+
+# var = 1    
+# my_function()
+# print(var)  
+   
+# var =2 
+# def mult_by_var(x):
+#   return x * var
+
+# print(mult_by_var(7))
+
+# def mult(x):
+#   var = 5 
+#   return x * var
+
+# print(mult(7))
+
+# def adding(x):
+#   var =  7 
+#   return x + var 
+
+# print(adding(4))    #  output is 11
+# print(var)          # error because var is defined in adding function's local scope (NAME ERROR)
+
+# def my_functions():
+#   global var 
+#   var = 2 
+#   print("Do I know that variable ? " , var)
   
+# var = 1
+# my_functions()
+# print(var)
+
+
+var = 2
+print(var)                   # output = 2
+
+def return_var():
+  global var 
+  var = 5 
+  return var
+
+print(return_var())  
+print(var)  
