@@ -1797,7 +1797,101 @@ rooms     20    [20]
 # my_fun(my_list_2)
 # print("Print #5", my_list_2 )
 
+#  TUPLES  ()
 
 
+# tuples_1 = (1,2,3,4)
+# tuples_2 = 1, 2,3
+# print("tuple_1", tuples_1)
+# print("type of tuple_1", type(tuples_1))
+# print("tuple_2", tuples_2)   
+# print("type of tuple_2", type(tuples_2))
 
+
+# empty_tuple = ()
+# print("empty_tuple",empty_tuple)
+# print("type of empty_tuple ", type(empty_tuple))
+# one_element_tuple_1 = (1,)
+# print("one_element_tuple_1",one_element_tuple_1)
+# print("type of one_element_tuple_1 ", type(one_element_tuple_1))
+# one_element_tuple_2 = 1,
+# print("one_element_tuple_2",one_element_tuple_2)
+# print("type of one_element_tuple_2 ", type(one_element_tuple_2))
+
+
+# my_tuple = (1, 10, 100, 1000)
+# my_tuple.append(10000)
+# del my_tuple[0]
+# my_tuple[1] = -10
+
+# my_tuple = (1,)
+# my_tuple_1 = (2,)
+# my_new_tuple = my_tuple+my_tuple_1
+# print(my_new_tuple)
  
+# my_tuple_2 = (2,)
+# my_new_tuple = my_tuple_2 *2
+# print(my_new_tuple) 
+
+
+# my_tuple = (1, 10, 100)
+
+# t1 = my_tuple+(1000, 10000)
+# t2 = my_tuple*3
+
+# print(len(t2))
+# print(t1)
+# print(t2)
+# print(10 in my_tuple)
+# print(-10 not in my_tuple)
+
+# #  EXAMPLE 1
+# tuple_1 =(1, 2, 3, 4)
+# for elment in tuple_1:
+#   print(elment)
+# print("--------")  
+
+# #  EXAMPLE 2
+# tuple_2 = (1,2,3,4)
+# print(5 in tuple_2)
+# print(5 not in tuple_2)
+# print("--------") 
+ 
+# #  EXAMPLE 3
+# tuple_3 = ( 1,2,3,4)
+# print(len(tuple_3))
+# print(5 not in tuple_3)
+# print("--------")  
+
+# #  EXAMPLE 4
+# tuple_4 = tuple_1+tuple_2
+# tuple_5 = tuple_3*2
+# print(tuple_4)
+# print(tuple_5)
+# print(tuple_5[0])
+# print(tuple_5[1])
+# print("--------")  
+
+
+# my_tuple = tuple((1,2,"string"))
+# print(my_tuple)
+
+# my_list = [2,4,6]
+# print(my_list)                 # outputs: [2, 4, 6]
+# print(type(my_list))           # outputs: <class 'list'>
+# tup = tuple(my_list)           # outputs: (2, 4, 6)
+# print(tup)
+# print(type(tup))               # outputs: <class 'tuple'>
+
+
+# var = 123
+
+# t1 = (1,)
+# t2 = (2,)
+# t3 = (3 ,var)
+
+# t1,t2,t3 = t2,t3,t1
+
+# print(t1,t2,t3)
+
+
