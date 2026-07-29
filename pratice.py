@@ -1895,3 +1895,112 @@ rooms     20    [20]
 # print(t1,t2,t3)
 
 
+#   DICTIONARY
+
+
+# dictionary = {
+#   "cat" : "chat",
+#   "dog": "chien",
+#   "horse" : "chevel"
+# }
+
+# phone_number = {
+#   'boss': 9131789120,
+#   'suzy':22334578900
+# }
+
+# empty_dictionary = {}
+
+# print("dictionary",dictionary)
+# print("type(dictionary)",type(dictionary))
+# print("phone_number " , phone_number)
+# print("type(phone_number)", type(phone_number))
+# print("empty_dictionary", empty_dictionary)
+# print("type(empty_dictionary)", type(empty_dictionary))
+
+
+# print(dictionary["cat"])
+# print(dictionary["horse"])
+
+
+# dictionary = {
+#           "cat" : "chat",
+#           "dog": "chien",
+#            "horse" : "chevel"
+# }
+
+# keys = ['cat' , 'lion', 'horse']
+
+# for key in keys:
+#   if key in dictionary:
+#     print(key , "-->", dictionary[key])
+#   else:
+#     print(key , "is not in dictionary")  
+
+
+
+# dictionary = {
+#           "cat" : "chat",
+#           "dog": "chien",
+#            "horse" : "chevel"
+# }
+
+# for key in dictionary.keys():
+#   print(key)
+#   print(dictionary[key])
+#   if key in dictionary:
+#     print(key , "-->", dictionary[key])
+#   else:
+#     print(key , "is not in dictionary")  
+
+
+
+
+# dictionary = {
+#           "cat" : "chat",
+#           "dog": "chien",
+#            "horse" : "chevel"
+# }
+
+# print(dictionary.items())
+# print(type(dictionary.items()))
+
+# for english , french in dictionary.items():
+#   print(english,"-->" , french)
+
+
+# for french in dictionary.values():
+#   print(french)
+
+# pol_eng_dictionary = {
+#       "zamek": "castle",
+#       "woda": "water",
+#       "gleba": "soil"
+#  }
+# pol_eng_dictionary_copy = pol_eng_dictionary               # assigment opreters refernce copy kar deta hai 
+# pol_eng_dictionary_copy_2 = pol_eng_dictionary.copy()      # .copy reference copy nahi karta matlab update hone ke bad usme value change nhi  hoti gi 
+
+# print(pol_eng_dictionary)
+# print(pol_eng_dictionary_copy)
+# print(pol_eng_dictionary_copy_2)
+
+# pol_eng_dictionary["one"] = 1      
+# print(pol_eng_dictionary)
+# print(pol_eng_dictionary_copy) 
+# print(pol_eng_dictionary_copy_2) 
+
+# pol_eng_dictionary = {
+#       "zamek": "castle",
+#       "woda": "water",
+#       "gleba": "soil"
+#  }
+
+# pol_eng_dictionary["zamek"] = "lock"
+# item = pol_eng_dictionary["zamek"]
+# print(item)
+# print("pol_eng_dictionary: " , pol_eng_dictionary)
+# del pol_eng_dictionary["zamek"]
+# print("pol_eng_dictionary" , pol_eng_dictionary )   
+
+
+#  CRUD = Create | Retrive | Update | Delete
