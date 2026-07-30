@@ -2004,3 +2004,22 @@ rooms     20    [20]
 
 
 #  CRUD = Create | Retrive | Update | Delete
+
+
+
+# pol_eng_dictionary = {"kwait": "flower "}
+
+# pol_eng_dictionary.update({"gleba" : "soil"})
+# print(pol_eng_dictionary)
+
+# pol_eng_dictionary.popitem()
+# print(pol_eng_dictionary)
+
+# pol_eng_dictionary = {"gleba" : "soil"}
+
+# pol_eng_dictionary.update({"kwait": "flower "})
+# print(pol_eng_dictionary)
+
+# pol_eng_dictionary.popitem()
+# print(pol_eng_dictionary)
+
