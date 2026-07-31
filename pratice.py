@@ -2023,3 +2023,135 @@ rooms     20    [20]
 # pol_eng_dictionary.popitem()
 # print(pol_eng_dictionary)
 
+
+# pol_eng_dictionary = {
+#       "zamek": "castle",
+#       "woda": "water",
+#       "gleba": "soil"
+#  }
+
+# print(len(pol_eng_dictionary))                   # output : 3
+# del pol_eng_dictionary["zamek"]                  # remove an item  
+# print(len(pol_eng_dictionary))                   # output : 2
+
+
+# pol_eng_dictionary.clear()                       # remove all items 
+# print(len(pol_eng_dictionary))                   # output : 0 
+
+# del pol_eng_dictionary                           #Name error 
+# print(pol_eng_dictionary)
+
+
+# Tuples and dictionaries can work together
+# school_class = {}
+# while True:
+#  name = input("Enter the student's name: ")
+#  if name == '':
+#   break
+
+#  score = int(input("Enter the student's score (0-10): "))
+#  if score not in range(0, 11):
+#   break
+
+#  if name in school_class:
+#   school_class[name] += (score,)
+#  else:
+#   school_class[name] = (score,)
+
+# for name in sorted(school_class.keys()):
+#  adding = 0
+#  counter = 0
+#  for score in school_class[name]:
+#   adding += score
+#  counter += 1
+#  print(name, ":", adding / counter)
+ 
+
+# school = {}
+
+# while True:
+#   name = input("Enter a name of students : ")
+#   if name  == " ":
+#     break
+  
+#   score = int(input("Enter a  the student marks : "))
+#   if score in range(0,101):
+#    break
+ 
+  # Program to evaluate students' average score
+
+# students = {}
+# total = 0
+
+# while True:
+#     name = input("Enter student name: ")
+
+#     # Stop if the name is empty
+#     if name == "":
+#         break
+
+#     score = float(input("Enter student's score: "))
+#     students[name] = score
+#     total += score
+
+# # Calculate average
+# if len(students) > 0:
+#     average = total / len(students)
+
+#     print("\nStudent Details")
+#     print("-------------------------")
+#     for name, score in students.items():
+#         print(name, ":", score)
+
+#     print("-------------------------")
+#     print("Average Score =", average)
+# else:
+#     print("No student data entered.")
+ 
+ 
+# students = {}
+
+# while True:
+#     name = input("Enter student name (Press Enter to finish): ")
+
+#     if name == "":
+#         break
+
+#     score = float(input("Enter score: "))
+
+#     if name in students:
+#         students[name].append(score)
+#     else:
+#         students[name] = [score]
+
+# print("\nAverage Score of Each Student")
+# # print("------------------------------")
+
+# for name, scores in students.items():
+#     average = sum(scores) / len(scores)
+#     print(name, ":", average) 
+ 
+# dictionary = {}
+
+# while True:
+#   name = input("Enter a student name :")
+#   if name != "":
+#     mark = float(input(f"enter {name}'s score :"))
+#     if name not in dictionary :
+#       dictionary.update({name:(mark,)})
+#     else:  
+#      dictionary[name] = dictionary[name] +(mark,)
+#   else :
+#     break
+#   for name , marks in dictionary.items():
+#     sum = 0
+#     for mark in marks:
+#       sum += mark
+#     print(f"{name}'s Average score is : { sum/len(marks)}")
+      
+   
+# tup = 1 ,2 ,3,4,5,6,7,2,2,8,9
+# duplicate = tup.count
+# print(tup)
+
+#  OBJECT ORIENTED PROGRAMMING 
