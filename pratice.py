@@ -2149,4 +2149,9 @@ rooms     20    [20]
 #       sum += mark
 #     print(f"{name}'s Average score is : { sum/len(marks)}")
       
-       
+   
+# tup = 1 ,2 ,3,4,5,6,7,2,2,8,9
+# duplicate = tup.count
+# print(tup)
+
+#  OBJECT ORIENTED PROGRAMMING 
