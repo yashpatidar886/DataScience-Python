@@ -2190,3 +2190,49 @@ rooms     20    [20]
 # print("aditya.gender:" , aditya.gender)
 # aditya.add_marks()
 # print("aditya.marks :" , aditya.marks) 
+
+
+
+# class ExampleClass:
+#   def __init__(self,val = 1):
+#     self.first = val
+#     def set_second(self , val ):
+#      self.second = val 
+    
+# example_object_1 = ExampleClass()
+# example_object_1 = ExampleClass(2)
+# example_object_2.set_second(3)
+# example_object_ = ExampleClass(4)
+# example_object_3.third = 5  
+# print("-===================-")
+# print("example_object_1", example_object_1)
+# print("example_object_2" , example_object_2)
+# print("example_object_3" , example_object_3)
+# print("-===================-")
+# print(example_object_1.__dict__)
+# print(example_object_2.__dict__)
+# print(example_object_3.__dict__)
+# print("-===============-")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
