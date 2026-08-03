@@ -1,4 +1,4 @@
-  # print("Hello MindCoders")
+print("Hello MindCoders")
 
 # yash Patidar
 '''i 
@@ -2156,3 +2156,37 @@ rooms     20    [20]
 
 #  OBJECT ORIENTED PROGRAMMING 
 #  start date 31/7/26
+
+
+# class Students: 
+#   age = 0
+#   name = ""
+#   school = '"'
+#   marks = 0     # all this we can say attributes  ,properties , variable 
+
+# class AIMLstudnts:
+#   pass
+
+# class BankAccout:
+#   pass
+
+# myStudents = Students() # myStudents creating a object, () is a consrructor ,  students is class
+
+
+# class Students:
+#   name = ""
+#   age = 0
+#   gender = "M"
+#   #class variable / class proprties
+  
+#   # Properties defined in class method
+#   #  => Instance Variables
+#   def add_marks(self , marks):
+#     self.marks = marks
+    
+# aditya = Students()
+# print("aditya.name :" , aditya.name)   
+# print("aditya.age :" , aditya.age)
+# print("aditya.gender:" , aditya.gender)
+# aditya.add_marks()
+# print("aditya.marks :" , aditya.marks) 
