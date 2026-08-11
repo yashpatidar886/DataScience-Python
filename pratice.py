@@ -5,1099 +5,1099 @@ print("Hello MindCoders")
 am 
 yash patidar'''         
 
-# print("How")
-# print("are")
-# print("you")
-# print("yash")
-# age=4
-# print(age)
-# print(type(age))
+print("How")
+print("are")
+print("you")
+print("yash")
+age=4
+print(age)
+print(type(age))
 
-# age ="Four"
-# print(age)
-# print(type(age))
+age ="Four"
+print(age)
+print(type(age))
 
-# name = "Yash Patidar"
-# profession = "Software Developer"
-# exceperience = 4
+name = "Yash Patidar"
+profession = "Software Developer"
+exceperience = 4
 
-# print("Hello , I am", name, "I am a ",profession,"Professionaly . And I hae around", exceperience, "years of experience with it !")
+print("Hello , I am", name, "I am a ",profession,"Professionaly . And I hae around", exceperience, "years of experience with it !")
 
-# x  =5 
-# print(x)
-# print(type(x))
-# x="Hello World"
-# print(x)
-# print(type(x))
-# x =20
-# print(x)
-# print(type(x))
-# x =20.5
-# print(x)
-# print(type(x))
-# x =1j
-# print(x)
-# print(type(x))
-# x = ["Apple" ,"Banana", "Cherry"]
-# print(x)
-# print(type(x))
-# x = ("Apple" ,"Banana", "Cherry")
-# print(x)
-# print(type(x))
-# x= range(6)
-# print(x)
-# print(type(x))
-# x = {"name" ,"Jhon" ,"age " , 36 }
-# print(x)
-# print(type(x))
-# x = {"Apple" ,"Banana", "Cherry"}
-# print(x)
-# print(type(x))
-# x =frozenset({"Apple" ,"Banana", "Cherry"})
-# print(x)
-# print(type(x))
-# x =True
-# print(x)
-# print(type(x))
-# x =b"Hello"
-# print(x)
-# print(type(x))
-# x=bytearray(5)
-# print(x)
-# print(type(x))
-# x = memoryview(bytes(5))
-# print(x)
-# print(type(x))
-# x = None
-# print(x)
-# print(type(x))
+x  =5 
+print(x)
+print(type(x))
+x="Hello World"
+print(x)
+print(type(x))
+x =20
+print(x)
+print(type(x))
+x =20.5
+print(x)
+print(type(x))
+x =1j
+print(x)
+print(type(x))
+x = ["Apple" ,"Banana", "Cherry"]
+print(x)
+print(type(x))
+x = ("Apple" ,"Banana", "Cherry")
+print(x)
+print(type(x))
+x= range(6)
+print(x)
+print(type(x))
+x = {"name" ,"Jhon" ,"age " , 36 }
+print(x)
+print(type(x))
+x = {"Apple" ,"Banana", "Cherry"}
+print(x)
+print(type(x))
+x =frozenset({"Apple" ,"Banana", "Cherry"})
+print(x)
+print(type(x))
+x =True
+print(x)
+print(type(x))
+x =b"Hello"
+print(x)
+print(type(x))
+x=bytearray(5)
+print(x)
+print(type(x))
+x = memoryview(bytes(5))
+print(x)
+print(type(x))
+x = None
+print(x)
+print(type(x))
 
-# x =y = z = 0
-# print(x)
-# print(y)
-# print(z)
-# a,b,c = 10,20,30
-# print(a,b,c)
+x =y = z = 0
+print(x)
+print(y)
+print(z)
+a,b,c = 10,20,30
+print(a,b,c)
 
-# #Arithmetic opretors
+#Arithmetic opretors
 
-# print("10+2", 10+2)
-# print("10-2", 10-2)
-# print("10*2", 10*2)
-# print("10/2", 10/2)
-# print("10%2", 10%2)
-# print("10//2", 10//2)
-# print("2**3", 2**3)
+print("10+2", 10+2)
+print("10-2", 10-2)
+print("10*2", 10*2)
+print("10/2", 10/2)
+print("10%2", 10%2)
+print("10//2", 10//2)
+print("2**3", 2**3)
 
 
-# # Assigment opreters
+# Assigment opreters
 
-# #compuond opreters
+#compuond opreters
 
-# x=  5
-# print(x)
-# x+=3
-# print(x)
-# x-=2
-# print(x)
-# x *=3
-# print(x)
-# x /=2
-# print(x)
-# x //=3
-# print(x)
-# x**=2
-# print(x)
-# x =5
-# x %=3
-# print(x)
-# x |=2
-# print(x)
-# x ^=3
-# print(x)
+x=  5
+print(x)
+x+=3
+print(x)
+x-=2
+print(x)
+x *=3
+print(x)
+x /=2
+print(x)
+x //=3
+print(x)
+x**=2
+print(x)
+x =5
+x %=3
+print(x)
+x |=2
+print(x)
+x ^=3
+print(x)
 
-# #Comparison Opreters (== , != , > ,< , >= ,<=)
-# a = 10
-# b =20
-# print("a ==b :" , a==b)
-# print("a ==10 :" , a==10)
+#Comparison Opreters (== , != , > ,< , >= ,<=)
+a = 10
+b =20
+print("a ==b :" , a==b)
+print("a ==10 :" , a==10)
 
-# print("a !=b :" , a!=b)
-# print("a !=a :" , a!=a)
+print("a !=b :" , a!=b)
+print("a !=a :" , a!=a)
 
-# print("a >b :" , a>b)
-# print("a <b :" , a<b)
-# print("a<=b:", a<=b)
-# print("a>=b:", a>=b)
-# print("a>=10:", a>=10)
+print("a >b :" , a>b)
+print("a <b :" , a<b)
+print("a<=b:", a<=b)
+print("a>=b:", a>=b)
+print("a>=10:", a>=10)
 
-# #Logical Opreters (AND ,OR ,NOT)
-# x = 4
-# print(x < 5 and x <10 )
-# print(x <5 or x <4)
-# print(not(x < 5 and x <10))
-# y =4
-# print(x is y)
-# print(x is not y)
+#Logical Opreters (AND ,OR ,NOT)
+x = 4
+print(x < 5 and x <10 )
+print(x <5 or x <4)
+print(not(x < 5 and x <10))
+y =4
+print(x is y)
+print(x is not y)
 
-# #Identity Opreters (is ,is not) 
-
-# # x = ["Maruti","BMW"]
-# y = ["Maruti","BMW"]
-# z =x
-# print(x is y)
-# print(x is not y)
-# print(y is z )
-# print(y is not z)
-# print(x is z)
-# print(x is not z)
-
-# x = 10 
-# y =10 
-# print(x is y)
-# print(x is not y)
-
-# x = ("Maruti","BMW",)
-# y =("Maruti","BMW",)
-# print(x is y)
-# print(x is not y)
-
-# # Membership oprerters
+#Identity Opreters (is ,is not) 
 
 # x = ["Maruti","BMW"]
-# y = ["Maruti","BMW"]
-# print(x is y)
-
-# print("Maruti " in x)
-# print("Maruti " not in x)
-
-# # Bitwise opreters
-# x = 10   #    0000 1010
-# y = 20   #    0001 0100
-
-# print (x&y)  # AND opreter
-# print(x|y)   # OR opreter
-# print(x^y)   # XOR opreter
-# print(~x)    # NOT opreter
-# print(~y)    # NOT opreter
-# print(x <<2) # Left side 
-# print(y <<2) # Left side
-# print(x<<2)  # Right side
-# print(x<<2)  # Right side
-
-
-# #  User Input 
-# name = input("Please enter yoyr name : ")
-# print("hello" , name)
-# age = input("please enter your age :")
-# print("Hello" , name ,"Your name ", age , "Years old ")
-# phone = input("Enter your phone number :"
-# print("Contact Number " , phone)
-# email = input("Enter your email :")
-# print("email " , email)
-
-# x = int(input("Enter first number: "))
-# y = int(input("Enter second number: "))
-
-# z = x + y
-
-# print("Sum of two numbers:", z)
-
-# x = input("Enter first number: ")
-# y =int(input("Enter second number: "))
-# z = int(x)+int(y)
-# print(z)
-
-
-# x =  int(input("Enter a number :"))
-# y = int(input("Enter a number : "))
-# z = x-y
-# print("Sub " , z)
-
-# x =  5
-# input("Enter a number :")
-# y = input("Enter a number : ")
-# z = x+y
-# print("Sum " , z)
-
-# x = float(input("Enter a First Len : "))
-# y = float(input("Enter a Second Len : "))
-
-# h = (x**2+y**2)**.5
-# h = (x ** 2 + y **2 )**1/2
-# print("Hypotenuse length is", h)
-
-
-
-# print("+----------+")
-# print("|          |")
-# print("|          |")
-# print("|          |")
-# print("|          |")
-# print("|          |")
-# print("+----------+")
-
-# print("+" + 10 * "-" + "+")
-# print(("|" + " " * 10 + "|\n") * 5 , end="")
-# print("+" + 10 * "-" + "+")
-
-# city = 'bhopal'
-# print(city[0])
-# print(city[2])
-# print(city[-1])
-# print(city[-5])
-
-# print(2==2)
-# print(2==2.2)
-# var = 0
-# print(var==0)
-# var == 1
-# print(var == 0)
-
-# var = 10
-# if var ==11:
-#    print("Var is 11")
-# print("HEllo")   
-
-# # yash  = 11 
-# if yash==11:
-#     print("yash is 11")
-
-# num1 = int(input("Enter a First number "))
-# num2 = int(input("Enter a Second  number "))
-
-# if num1 > num2 :
-#    larger_num = num1
-# else :
-#    larger_num = num2 
-   
-# print("Larger number is : ", larger_num)   
-   
-   
-
-# num1 = int(input("Enter a First number "))
-# num2 = int(input("Enter a Second  number "))
-# num3 = int(input("Enter a Third  number "))
-# if num1 > num2 and  num1 >num3 :larger_num = num1
-# elif   num2 >num3 and num2 >num1: larger_num = num2
-# else :  larger_num = num3
-   
-   
-# print("Larger number is : ", larger_num)   
-   
-   
-# num1 = int(input("Enter a First number "))
-# num2 = int(input("Enter a Second  number "))
-# num3 = int(input("Enter a Third  number "))
-
-# largest_num = max(num1,num2,num3)
-# minmum = min(num1,num2,num3)
-# print("Largest  number is : ", largest_num)  
-# print("Minimum number is  " ,minmum)
-
-# while True:
-#    print("I an Stack in a loop")
-
-# largest_number = -99999
-# number = int(input("Enter a number or type -1 to stop"))
-
-# while number !=-1:
-#    if number>largest_number:
-#      largest_number=number
-#      number = int(input("Enter a number or type -1 to stop"))
-     
-# print("largest number is :",largest_number)     
-
-
-# user = str(input("Enter a sentence : "))
-
-# if user == "Spathiphyllum":
-#   print("Yes - Spathiphyllum is the best plant ever!")
-# elif user=="spathiphyllum":
-#   print("No, I want a big Spathiphyllum!")
-# else:
-#   print("Spathiphyllum! Not", user + "!")
-
-# income = float(input("Enter income :"))
-
-# if income<=85528:
-#     tax = income*0.18-556.2
-#     if tax <0:
-#         tax = 0
-        
-# else:
-#     tax=14839.02+(income-85528)*0.32
-# print("the tax is " , round(tax) , "thalers")     
-
-# while number !=-1:
-#    if number>largest_number:
-#      largest_number=number
-#      number = int(input("Enter a number or type -1 to stop"))
-     
-# print("largest number is :",largest_number)     
-       
-
-
-# number =  int(input("Enter a number : "))
-# even_count  =0
-# odd_count =0
-# while number !=0:
-#     if number % 2==0:
-#         even_count +=1
-#     else:
-#         odd_count +=1  
-#     number =  int(input("Enter a number : "))     
-# print("Even :" , even_count)
-# print("odd :" , odd_count)        
-    
-# num = [1,2,3,4]
-# print(num[3])
-# print(bool(4))
-# print(bool(6))
-# print(bool(-1))
-# print(bool(0))            
-        
-# print(bool("a"))
-# print(bool("b"))
-# print(bool(" "))
-# print(bool(""))    
-
-# print(bool())
-# print(bool(None))
-# print(bool(null))    
-            
-# counter =5
-# while counter!=0:
-#     print("Inside the loop " , counter)
-#     counter -=1
-# print("Outside the loop") 
-
-
-# counter =5 
-# while counter :
-#     print("Inside the loop " , counter)
-#     counter -=1
-# print("Outside the loop")                    
-
-# for counter in range(10):
-#     print("counter :" , counter)
-
-# for counter in range(2,8):
-#     print("Counter :" , counter)     
-
-# print("The break instructions : ")
-# for counter in range (1,6):
-#     if counter == 3:
-#       break
-#     print("Inside the loop",counter)
-# print("Outside the loop")     
-    
-    
-# print("The break instructions : ")
-# for counter in range (1,6):
-#     if counter == 3:
-#      continue
-#     print("Inside the loop",counter)
-# print("Outside the loop")       
-
-# largest_number = -99999
-# counter =0
-
-# while True:
-#     number = int(input("Enter a number or type -1 to end the program "))
-#     if number == -1:
-#         break
-#     counter += 1
-#     if number > largest_number:
-#         largest_number = number
-# if counter !=0:
-#     print("The largest number is " , largest_number)
-# else:
-#     print("You haven't enter a number")            
-        
-        
-# largest_number =-9999999
-# counter = 0
-
-# while number != -1:
-#     if number ==-1:
-#         continue
-#     counter +=1
-    
-#     if number > largest_number:
-#          largest_number = number
-#     number = int(input("Enter a number or type -1 to end the program "))
-    
-# if counter:
-#     print("The largest number is " , largest_number)
-# else:
-#     print("You haven't enter a number")                  
-
-# counter =1 
-# while counter <5:
-#     print(counter)
-#     counter +=1
-# else:
-#     print("ELse" , counter)    
-    
-# counter =5
-# while counter <5:
-#     print(counter)
-#     counter +=1
-# else:
-#     print("ELse" , counter)    
-
-
-# for counter in range (5):
-#     print(counter)
-# else:
-#     print("else " , counter)     
-     
-# counter = 111
-# for counter in range (2,1):
-#    print(counter )
-# else:
-#     print("else", counter )        
-
-
-     
-# blocks = int(input("Enter numbber of blocks : "))
-# counter = 0
-# while(blocks - counter > 0):
-#     counter +=1
-#     blocks = blocks - counter 
-    
-# print("height of paryamid : " , counter) 
-# print("height of paryamid : " , counter)  
-
-# git add *
-# git commit -m "Explain the commit here"
-# git push
-
-# number  = [10 ,5 ,7 ,2 ,1]
-# print(number)
-# print(type(number))
-
-# print(number[0])
-# print(number[1])
-# print(number[2])
-# print(number[3])
-# print(number[4])
-
-# number[0] = 100
-# print(number) 
-
-# number = [10 , 5, 7,2, 1]
-# print("Original list contents :" , number ) # printing ogignal list contents.
-# number[0] = 111
-# print("update list contents :" , number) #  Printing Current list contents.
-
-# print("Original list content :" , number )  # printing ogignal list contents.
-# number[1] = number[4] # copyiong value of the fifth element list content 
-# print("Update list content : " , number ) #  Printing Current list contents.
-
-# print(5)
-# print(len(number))
-# del number[1]
-# print(number)
-# print(len(number))
-
-
-
-# num = [100, 99, 105 ,113, 112]
-# print(num)
-# print(len(num))
-# del num[1]
-# print(num)
-# print(len(num))
-
-# number = [100,111,112,113 ]
-# print(number[-1])
-
-# number = [100,111,112,113 ]
-# print(number[-2])
-
-# print(number[-4])
-# print(number [len(number ) * -1 ])
-
-# hat = [ 1,2,3,4,5]
-# print(len(hat ))
-# del hat [-1]
-# print(hat)
-
-# hat[len(hat)//2] = int(input("enter a interger number"))
-# print(hat )
-
-# list = [5,4,3,2,1]
-# print(list)
-# print(f'Lenth of lists : {len(list)}')
-# list.append(6)
-# print(list)
-# print(f'Lenth of lists : {len(list)}')
-  
-
-# list  = [ 111 , 7 , 2 , 1]
-# print(len(list))
-# print(list)
-
-# list.append(4)
-# print(len(list))
-# print(list)
-
-# list.insert(0,222)
-
-# print(len(list))
-# print(list)  
-  
-# list = [1,2,3,4,5,6]
-# for count in range (len(list)):
-#   print(len(list))
-
-  
-  
-# list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# for count in range(len(list)):
-#  print(list[count])  
-
-# list = [1,2,3,4]
-# for list in range(1,5):
-#   print(list) 
-
-# numbers = []
-# for i in range(1, 11):
-#     numbers.append(i)
-# print(numbers)
-
-# l =[]
-# count = 1
-# while count<=10:
-#   l.append(count)
-#   count +=1
-# print(l)  
-
-# list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
-# for count in range(10):
-#     list[count] += 1
-# print(list)
-
-# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-# total = 0
-# for i in range(len(my_list)):
-#   total += my_list[i]
-# print(total)
- 
-# a = 10 
-# b = 20
-# print("a" , a)
-# print("b" , b)
-# a , b  = b ,a
-# print("a" , a)
-# print("b" , b)
-
-# a = 10 
-# b = 20
-# print("a" , a)
-# print("b" , b)
-# x = a
-# a = b
-# b = x
-# print("a" , a)
-# print("b" , b)
-
-
-# list = [ 10 , 1 , 8 ,3 , 5]
-# print("list")
-# list[0] , list[4] = list[4] , list[0]
-# list[1] , list[3] = list[3] , list[1]
-# print(list)
-
-
-# list = [10,20,30,40,50,60,70]
-# print(list)
-# list[0] , list[6] = list[6] , list[0]
-# list[1] , list[5] = list[5] , list[1]
-# list[2] , list[4] = list[4] , list[2]
-# print(list)
-
-# lst = [1, 2, 3, 4, 5]
-# lst.insert(1, 6)
-# del lst[0]
-# lst.append(1)
-# print(lst)
-
-
-# lst = [1, 2, 3, 4, 5]
-# lst_2 = []
-# add = 0                 #[1, 3, 6, 10, 15]
-# for number in lst:      #[1, 2, 3, 4, 5]
-#   add += number
-#   lst_2.append(add)
-# print(lst_2)
-# print(lst)
-
-
-# list = []
-# del list
-# print(list)
-
-# lst = [1, [2, 3], 4]
-# print(lst[1])
-# print(len(lst))
-
-
-# list = [1,[2,3],4]
-# print(list[1])
-# print(len(lst))
-
-# my_list = [8, 10, 6, 2, 4]
-# my_list.sort
-# print(my_list)
-
-
-
-# my_list = [8, 10, 6, 2, 4]
-
-# for i in range(len(my_list) - 1):
-#     for j in range(len(my_list) - 1 -i ):
-#         if my_list[j] > my_list[j + 1]:
-#           my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
-
-# print(my_list)
-
-# my_list = [8, 10, 6, 2, 4]
-# print(my_list)
-# count = 0
-# for index1 in range(len(my_list)-1):
-#    for index in range (len(my_list)-1 - index1):
-#     count +=1
-#     if my_list[index] > my_list[index+1]:
-#      my_list[index] , my_list[index+1] = my_list[index+1] , my_list[index]
-      
-# print(my_list)  
-# print("My program has run for :" , count, "times")    
-
-# my_list = [ 8,10,6,2,4,]
-# swap = True
-# count = 0
-# while swap:
-#   swap = False
-#   for i in range(len(my_list)-1):
-#     count +=1
-#     if my_list[i] > my_list[i+1]:
-#       swap = True
-#       my_list[i],my_list[i+1] = my_list[i+1] , my_list[i]
-# print(my_list)
-# print("Loops are running for :", count , "timmes")      
-
-# my_list = [8, 10, 6, 2, 4]
-# my_list.sort
-# print(my_list)
-
-# my_list = [8, 10, 6, 2, 4]
-# print(my_list)
-# my_list.reverse()
-# print(my_list)
- 
-# lst = [5, 3, 1, 2, 4]
-
-# for i in range(len(lst) - 1,-1,-1 ):
-#     print(lst[i], end=" ")
-    
-    
-# lst = [5, 3, 1, 2, 4]
-# count = 0
-
-# for i in range(len(lst) // 2):
-#   count += 1                  
-#   lst[i], lst[len(lst) - 1 - i] = lst[len(lst) - 1 - i], lst[i]
-
-# przint(lst)    
-# print("loops are running :",count , "Times") 
-
-# list =["D","F","a","A","Z"]
-# list.sort()
-# print(list)
-# print("A">"a")
-
-# a = 3
-# b = 1
-# c = 2
-# lst =[a,b,c]
-# lst.sort()
-# print(lst)
-
-# a = "A"
-# b = b"B"
-# c = "C"
-# d = " "
-# lst = [a, b, c, d]
-# lst.reverse()
-# print(lst)
-
-
-# list_1 = [1]
-# list_2 = list_1   # reference copy hota value change nhi hoti hai
-# list_1[0] = 2
-# print(list_2)
-
-# a = 1
-# b= a
-# a = 2 
-# print(a)
-# print(b)
-
-
-# list_1 = [1,2,3,4]
-# list_2 = list_1[:]
-# list_1[0] = 2
-# print("list_2",list_2)
-# print("list_1",list_1)
-
-# my_list = [10, 8, 6, 4, 2]
-# new_list = my_list[1:3]
-# print(new_list)
-
-# my_list = [10, 8, 6, 4, 2]
-# new_list = my_list[1:-1]
-# print(new_list)
-
-# my_list = [10, 8, 6, 4, 2]
-# new_list = my_list[-1:1]
-# print(new_list)
-
-# my_list = [10, 8, 6, 4, 2]
-# new_list = my_list[:3]
-# print(new_list)
-
-
-# my_list = [10, 8, 6, 4, 2]
-# new_list = my_list[3:]
-# print(new_list)
-
-
-# print(ord("A"))   # ord is print ASCII value of an element
-
-# list = [10,8,6,4,2]
-# del list[1:3]
-# print(list)
-
-
-# list = [10,8,6,4,2]
-# del list[:]
-# print(list)
-
-# my_list = [10, 8, 6, 4, 2]
-# del my_list
-# print(my_list)
-
-# my_list = [0, 3, 12, 8, 2]
-# print(5 in my_list)
-# print(5 not in my_list)
-# print(12 in my_list)
-
-# my_list = [17,3,11,5,1,9,7,15,13]
-
-# largest = my_list[0]
-# for i in my_list:
-#   if i>largest:
-#     largest = i
-# print(largest)   
-
-
-# l = []
-# for i in range(1,31): 
-#   if (i%2==0):
-#     l.append(i)   
-# print(l)
-
-# l = [i for i in range(1,31) if i%2==0]
-#print(l)
-
- 
-# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# for i in range(len(my_list)):
-#  if my_list[i]==5:                                                                       
-#         print(i) 
-
-# a = 10
-# b = 20 
-# print(a==b)
-# print(a!=b)
-# print(a<b)
-# print(a>b)
-# print(a<=b)
-# print(a>=b)
-
-# a = 20
-# b = 30
-
-# print(a<b and a == 20)
-# print(a>b and a ==20)
-
-# print(a<b or a == 20)
-# print(a>b or a == 20)
-
-# print(not(a<b and a == 20))
-# print(not(a>b and a ==20))
-
-# a = 20
-# b = 30
-
-# print( a is b)
-# print(a is not b )
-
-# x = ["Maruti","BMW"]
-# y = ["Maruti","BMW"]
-# z = x
-
-# print(x is y)
-# print( x is z)
-# print( x is y )
-
-# x = ["Maruti","BMW"]
-# y = ["Maruti","BMW"]
-
-# print("Maruti " in x)
-# print("Maruti " not in x)
+y = ["Maruti","BMW"]
+z =x
+print(x is y)
+print(x is not y)
+print(y is z )
+print(y is not z)
+print(x is z)
+print(x is not z)
+
+x = 10 
+y =10 
+print(x is y)
+print(x is not y)
+
+x = ("Maruti","BMW",)
+y =("Maruti","BMW",)
+print(x is y)
+print(x is not y)
+
+# Membership oprerters
+
+x = ["Maruti","BMW"]
+y = ["Maruti","BMW"]
+print(x is y)
+
+print("Maruti " in x)
+print("Maruti " not in x)
 
 # Bitwise opreters
 x = 10   #    0000 1010
 y = 20   #    0001 0100
 
-# print (x&y)  # AND opreter
-# print(x|y)   # OR opreter
-# print(x^y)   # XOR opreter
-# print(~x)    # NOT opreter
-# print(~y)    # NOT opreter
-# print(x <<2) # Left side 
-# print(y <<2) # Left side
-# print(x<<2)  # Right side
-# print(x<<2)  # Right side
+print (x&y)  # AND opreter
+print(x|y)   # OR opreter
+print(x^y)   # XOR opreter
+print(~x)    # NOT opreter
+print(~y)    # NOT opreter
+print(x <<2) # Left side 
+print(y <<2) # Left side
+print(x<<2)  # Right side
+print(x<<2)  # Right side
 
 
-# text = ' Hello python world! '
-# # Replace
-# print(text.replace('python','Ai'))    #Hello Ai world! 
+#  User Input 
+name = input("Please enter yoyr name : ")
+print("hello" , name)
+age = input("please enter your age :")
+print("Hello" , name ,"Your name ", age , "Years old ")
+phone = input("Enter your phone number :"
+print("Contact Number " , phone)
+email = input("Enter your email :")
+print("email " , email)
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+z = x + y
+
+print("Sum of two numbers:", z)
+
+x = input("Enter first number: ")
+y =int(input("Enter second number: "))
+z = int(x)+int(y)
+print(z)
 
 
-# # Spilt and join
-# csv = ' Rahul,22,Bhopal,Enginer'
-# parts = csv.split(' ,')
-# print("Parts", parts)   #Parts [' Rahul,22,Bhopal,Enginer']
-# print(parts[0])
-# rejoined = " | ".join(parts)
-# print("rejoined" ,rejoined)
+x =  int(input("Enter a number :"))
+y = int(input("Enter a number : "))
+z = x-y
+print("Sub " , z)
 
+x =  5
+input("Enter a number :")
+y = input("Enter a number : ")
+z = x+y
+print("Sum " , z)
 
-# #check content
+x = float(input("Enter a First Len : "))
+y = float(input("Enter a Second Len : "))
 
-# print('hello123'.isalnum())
-# print('12345'.isdigit())
-# print("helllo".isalpha())
-# print(" ".isspace())
-
-
-# email = "student@gmail.com"
-# print(email.endswith(".com"))
-# print(email.startswith("stu"))
-
-
-# name , marks , rank = "Yash" , 99.855,2
-# print(name,marks,rank)
-
-# print(F'HELLO, {name}')
-
-# print(F'Marks : {marks:.2f}')
-# print(F'Marks : {marks:.0f}')   # roundefingure
-# print(F'Marks : {100000: ,}')
-
-# print(f'{name:<15}|{marks:>8.2f}|rank{rank}')
+h = (x**2+y**2)**.5
+h = (x ** 2 + y **2 )**1/2
+print("Hypotenuse length is", h)
 
 
 
-# price , gst = 500 , 0.18
-# print(f'Price:Rs.{price}  | GST:Rs.{price*gst:.2f}')
+print("+----------+")
+print("|          |")
+print("|          |")
+print("|          |")
+print("|          |")
+print("|          |")
+print("+----------+")
 
-# # Name Card Program
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5 , end="")
+print("+" + 10 * "-" + "+")
 
-# first_name = input("Enter First Name: ")
-# last_name = input("Enter Last Name: ")
-# age = input("Enter Age: ")
-# city = input("Enter City: ")
-# skill = input("Enter Favourite Skill: ")
+city = 'bhopal'
+print(city[0])
+print(city[2])
+print(city[-1])
+print(city[-5])
 
-# name = first_name + " " + last_name
+print(2==2)
+print(2==2.2)
+var = 0
+print(var==0)
+var == 1
+print(var == 0)
 
-# print("=" * 50)
-# print(f"{'NAME':<10}: {name}")
-# print(f"{'AGE':<10}: {age} years")
-# print(f"{'CITY':<10}: {city}")
-# print(f"{'SKILL':<10}: {skill}")
-# print("=" * 50)
+var = 10
+if var ==11:
+   print("Var is 11")
+print("HEllo")   
 
+# yash  = 11 
+if yash==11:
+    print("yash is 11")
 
-# num1 = int(input("Enter a number : "))
-# num2 = int(input("Enter a number : "))
+num1 = int(input("Enter a First number "))
+num2 = int(input("Enter a Second  number "))
 
-# if num1>num2:
-#    larger_number = num1
+if num1 > num2 :
+   larger_num = num1
+else :
+   larger_num = num2 
    
-# else:
-#   larger_number = num2
+print("Larger number is : ", larger_num)   
+   
+   
+
+num1 = int(input("Enter a First number "))
+num2 = int(input("Enter a Second  number "))
+num3 = int(input("Enter a Third  number "))
+if num1 > num2 and  num1 >num3 :larger_num = num1
+elif   num2 >num3 and num2 >num1: larger_num = num2
+else :  larger_num = num3
+   
+   
+print("Larger number is : ", larger_num)   
+   
+   
+num1 = int(input("Enter a First number "))
+num2 = int(input("Enter a Second  number "))
+num3 = int(input("Enter a Third  number "))
+
+largest_num = max(num1,num2,num3)
+minmum = min(num1,num2,num3)
+print("Largest  number is : ", largest_num)  
+print("Minimum number is  " ,minmum)
+
+while True:
+   print("I an Stack in a loop")
+
+largest_number = -99999
+number = int(input("Enter a number or type -1 to stop"))
+
+while number !=-1:
+   if number>largest_number:
+     largest_number=number
+     number = int(input("Enter a number or type -1 to stop"))
+     
+print("largest number is :",largest_number)     
+
+
+user = str(input("Enter a sentence : "))
+
+if user == "Spathiphyllum":
+  print("Yes - Spathiphyllum is the best plant ever!")
+elif user=="spathiphyllum":
+  print("No, I want a big Spathiphyllum!")
+else:
+  print("Spathiphyllum! Not", user + "!")
+
+income = float(input("Enter income :"))
+
+if income<=85528:
+    tax = income*0.18-556.2
+    if tax <0:
+        tax = 0
+        
+else:
+    tax=14839.02+(income-85528)*0.32
+print("the tax is " , round(tax) , "thalers")     
+
+while number !=-1:
+   if number>largest_number:
+     largest_number=number
+     number = int(input("Enter a number or type -1 to stop"))
+     
+print("largest number is :",largest_number)     
+       
+
+
+number =  int(input("Enter a number : "))
+even_count  =0
+odd_count =0
+while number !=0:
+    if number % 2==0:
+        even_count +=1
+    else:
+        odd_count +=1  
+    number =  int(input("Enter a number : "))     
+print("Even :" , even_count)
+print("odd :" , odd_count)        
+    
+num = [1,2,3,4]
+print(num[3])
+print(bool(4))
+print(bool(6))
+print(bool(-1))
+print(bool(0))            
+        
+print(bool("a"))
+print(bool("b"))
+print(bool(" "))
+print(bool(""))    
+
+print(bool())
+print(bool(None))
+print(bool(null))    
+            
+counter =5
+while counter!=0:
+    print("Inside the loop " , counter)
+    counter -=1
+print("Outside the loop") 
+
+
+counter =5 
+while counter :
+    print("Inside the loop " , counter)
+    counter -=1
+print("Outside the loop")                    
+
+for counter in range(10):
+    print("counter :" , counter)
+
+for counter in range(2,8):
+    print("Counter :" , counter)     
+
+print("The break instructions : ")
+for counter in range (1,6):
+    if counter == 3:
+      break
+    print("Inside the loop",counter)
+print("Outside the loop")     
+    
+    
+print("The break instructions : ")
+for counter in range (1,6):
+    if counter == 3:
+     continue
+    print("Inside the loop",counter)
+print("Outside the loop")       
+
+largest_number = -99999
+counter =0
+
+while True:
+    number = int(input("Enter a number or type -1 to end the program "))
+    if number == -1:
+        break
+    counter += 1
+    if number > largest_number:
+        largest_number = number
+if counter !=0:
+    print("The largest number is " , largest_number)
+else:
+    print("You haven't enter a number")            
+        
+        
+largest_number =-9999999
+counter = 0
+
+while number != -1:
+    if number ==-1:
+        continue
+    counter +=1
+    
+    if number > largest_number:
+         largest_number = number
+    number = int(input("Enter a number or type -1 to end the program "))
+    
+if counter:
+    print("The largest number is " , largest_number)
+else:
+    print("You haven't enter a number")                  
+
+counter =1 
+while counter <5:
+    print(counter)
+    counter +=1
+else:
+    print("ELse" , counter)    
+    
+counter =5
+while counter <5:
+    print(counter)
+    counter +=1
+else:
+    print("ELse" , counter)    
+
+
+for counter in range (5):
+    print(counter)
+else:
+    print("else " , counter)     
+     
+counter = 111
+for counter in range (2,1):
+   print(counter )
+else:
+    print("else", counter )        
+
+
+     
+blocks = int(input("Enter numbber of blocks : "))
+counter = 0
+while(blocks - counter > 0):
+    counter +=1
+    blocks = blocks - counter 
+    
+print("height of paryamid : " , counter) 
+print("height of paryamid : " , counter)  
+
+git add *
+git commit -m "Explain the commit here"
+git push
+
+number  = [10 ,5 ,7 ,2 ,1]
+print(number)
+print(type(number))
+
+print(number[0])
+print(number[1])
+print(number[2])
+print(number[3])
+print(number[4])
+
+number[0] = 100
+print(number) 
+
+number = [10 , 5, 7,2, 1]
+print("Original list contents :" , number ) # printing ogignal list contents.
+number[0] = 111
+print("update list contents :" , number) #  Printing Current list contents.
+
+print("Original list content :" , number )  # printing ogignal list contents.
+number[1] = number[4] # copyiong value of the fifth element list content 
+print("Update list content : " , number ) #  Printing Current list contents.
+
+print(5)
+print(len(number))
+del number[1]
+print(number)
+print(len(number))
+
+
+
+num = [100, 99, 105 ,113, 112]
+print(num)
+print(len(num))
+del num[1]
+print(num)
+print(len(num))
+
+number = [100,111,112,113 ]
+print(number[-1])
+
+number = [100,111,112,113 ]
+print(number[-2])
+
+print(number[-4])
+print(number [len(number ) * -1 ])
+
+hat = [ 1,2,3,4,5]
+print(len(hat ))
+del hat [-1]
+print(hat)
+
+hat[len(hat)//2] = int(input("enter a interger number"))
+print(hat )
+
+list = [5,4,3,2,1]
+print(list)
+print(f'Lenth of lists : {len(list)}')
+list.append(6)
+print(list)
+print(f'Lenth of lists : {len(list)}')
+  
+
+list  = [ 111 , 7 , 2 , 1]
+print(len(list))
+print(list)
+
+list.append(4)
+print(len(list))
+print(list)
+
+list.insert(0,222)
+
+print(len(list))
+print(list)  
+  
+list = [1,2,3,4,5,6]
+for count in range (len(list)):
+  print(len(list))
+
+  
+  
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for count in range(len(list)):
+ print(list[count])  
+
+list = [1,2,3,4]
+for list in range(1,5):
+  print(list) 
+
+numbers = []
+for i in range(1, 11):
+    numbers.append(i)
+print(numbers)
+
+l =[]
+count = 1
+while count<=10:
+  l.append(count)
+  count +=1
+print(l)  
+
+list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
+for count in range(10):
+    list[count] += 1
+print(list)
+
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+total = 0
+for i in range(len(my_list)):
+  total += my_list[i]
+print(total)
  
-# print("The largest number is: ", larger_number)     
+a = 10 
+b = 20
+print("a" , a)
+print("b" , b)
+a , b  = b ,a
+print("a" , a)
+print("b" , b)
 
-# num1 = int(input("Enter a First number "))
-# num2 = int(input("Enter a Second  number "))
-# num3 = int(input("Enter a Third  number "))
-# if num1 > num2 and  num1 >num3 :larger_num = num1
-# elif   num2 >num3 and num2 >num1: larger_num = num2
-# else :  larger_num = num3
-# print("Larger number is : ", larger_num)      
-
-
-# num1 = int(input("Enter a First number : "))
-# num2 = int(input("Enter a Second number : "))
-# num3 = int(input("Enter a Third number : "))
-
-# if num1 > num2 and num1 > num3 : 
-#   largest  = num1
-# elif num2 > num1 and num2 > num3 :
-#   largest = num2
-# else :
-#   largest = num3
-# print("Largest number is : " , largest)    
-
-  
-# num1 = int(input("Enter a First number "))
-# num2 = int(input("Enter a Second  number "))
-# num3 = int(input("Enter a Third  number "))
-
-# largest_num = max(num1,num2,num3)
-# minmum = min(num1,num2,num3)
-# print("Largest  number is : ", largest_num)  
-# print("Minimum number is  " ,minmum)
+a = 10 
+b = 20
+print("a" , a)
+print("b" , b)
+x = a
+a = b
+b = x
+print("a" , a)
+print("b" , b)
 
 
+list = [ 10 , 1 , 8 ,3 , 5]
+print("list")
+list[0] , list[4] = list[4] , list[0]
+list[1] , list[3] = list[3] , list[1]
+print(list)
+
+
+list = [10,20,30,40,50,60,70]
+print(list)
+list[0] , list[6] = list[6] , list[0]
+list[1] , list[5] = list[5] , list[1]
+list[2] , list[4] = list[4] , list[2]
+print(list)
+
+lst = [1, 2, 3, 4, 5]
+lst.insert(1, 6)
+del lst[0]
+lst.append(1)
+print(lst)
+
+
+lst = [1, 2, 3, 4, 5]
+lst_2 = []
+add = 0                 #[1, 3, 6, 10, 15]
+for number in lst:      #[1, 2, 3, 4, 5]
+  add += number
+  lst_2.append(add)
+print(lst_2)
+print(lst)
+
+
+list = []
+del list
+print(list)
+
+lst = [1, [2, 3], 4]
+print(lst[1])
+print(len(lst))
+
+
+list = [1,[2,3],4]
+print(list[1])
+print(len(lst))
+
+my_list = [8, 10, 6, 2, 4]
+my_list.sort
+print(my_list)
 
 
 
-# user = str(input("Enter a sentence : "))
+my_list = [8, 10, 6, 2, 4]
 
-# if user == "Spathiphyllum":
-#   print("Yes - Spathiphyllum is the best plant ever!")
-# elif user=="spathiphyllum":
-#   print("No, I want a big Spathiphyllum!")
-# else:
-#   print("Spathiphyllum! Not", user "!")
+for i in range(len(my_list) - 1):
+    for j in range(len(my_list) - 1 -i ):
+        if my_list[j] > my_list[j + 1]:
+          my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
 
+print(my_list)
 
-# while True:
-#   print("I am stuck in loop")
+my_list = [8, 10, 6, 2, 4]
+print(my_list)
+count = 0
+for index1 in range(len(my_list)-1):
+   for index in range (len(my_list)-1 - index1):
+    count +=1
+    if my_list[index] > my_list[index+1]:
+     my_list[index] , my_list[index+1] = my_list[index+1] , my_list[index]
+      
+print(my_list)  
+print("My program has run for :" , count, "times")    
 
+my_list = [ 8,10,6,2,4,]
+swap = True
+count = 0
+while swap:
+  swap = False
+  for i in range(len(my_list)-1):
+    count +=1
+    if my_list[i] > my_list[i+1]:
+      swap = True
+      my_list[i],my_list[i+1] = my_list[i+1] , my_list[i]
+print(my_list)
+print("Loops are running for :", count , "timmes")      
 
-# num =  int(input("Enter a number or type -1 to stop"))
-# while num != -1:
-#    if num > largest_number :
-#      largest_number = num 
-#    num =  int(input("Enter a number or type -1 to stop"))
-# print("largest number is :",largest_number)    
+my_list = [8, 10, 6, 2, 4]
+my_list.sort
+print(my_list)
 
-# number =  int(input("Enter a number : "))
-# even_count  =0
-# odd_count =0
-# while number !=0:
-#     if number % 2==0:
-#         even_count +=1
-#     else:
-#         odd_count +=1  
-#     number =  int(input("Enter a number : "))     
-# print("Even :" , even_count)
-# print("odd :" , odd_count)        
+my_list = [8, 10, 6, 2, 4]
+print(my_list)
+my_list.reverse()
+print(my_list)
+ 
+lst = [5, 3, 1, 2, 4]
 
-# counter = 0
-# while counter < 100:
-#   print(counter)
-#   counter += 1
-  
-# for i in range(100):
-#      print(i)
-
-# exit = 1
-
-# while exit != 0:
-#   exit = int(input("Enter a number"))
-#   print(exit)
-
-# for counter in range(10):
-#   print("The value of counter is currently " , counter )
-
-
-# for counter in range(2,1):
-  # print("The value of counter is currently " , counter )
-
-
-# power = 1
-# for expo in range(16):
-#  print("2 to the power of", expo, "is", power)
-#  power *= 2
-
-# import time
-# for counter in range(5):
-#   print(counter, "Mississippi")
-#   time.sleep(1)
-# print("Ready or not, here I come!")
-
-# power = 1
-# for expo in range(16):
-#   if expo ==7:
-#     continue
-#   print("2 to the power of", expo, "is", power)
-#   power *=2
-
-# power = 1
-# for expo in range(16):
-#  print("2 to the power of", expo, "is", power)
-#  power *= 2
-#  if expo == 5:
-#   break
-# print("--------Now I am out------------")
-    
-
-# print("The break instructions : ")
-# for counter in range (1,6):
-#     if counter == 3:
-#       break
-#     print("Inside the loop",counter)
-# print("Outside the loop")     
+for i in range(len(lst) - 1,-1,-1 ):
+    print(lst[i], end=" ")
     
     
-# print("The break instructions : ")
-# for counter in range (1,6):
-#     if counter == 3:
-#      continue
-#     print("Inside the loop",counter)
-# print("Outside the loop")  
+lst = [5, 3, 1, 2, 4]
+count = 0
 
-# largest_number = -9999999
-# counter = 0
+for i in range(len(lst) // 2):
+  count += 1                  
+  lst[i], lst[len(lst) - 1 - i] = lst[len(lst) - 1 - i], lst[i]
 
-# while True:
-#   number = int(input("Enter a number or typr -1 to stop the program : "))
-#   if number == -1:
-#     break
-#   counter +=1
-#   if number > largest_number:
-#     largest_number = number
-# if counter != 0:
-#   print("The largest number is ",largest_number)
-# else:
-#   print("You haven't entered any number ") 
+przint(lst)    
+print("loops are running :",count , "Times") 
+
+list =["D","F","a","A","Z"]
+list.sort()
+print(list)
+print("A">"a")
+
+a = 3
+b = 1
+c = 2
+lst =[a,b,c]
+lst.sort()
+print(lst)
+
+a = "A"
+b = b"B"
+c = "C"
+d = " "
+lst = [a, b, c, d]
+lst.reverse()
+print(lst)
+
+
+list_1 = [1]
+list_2 = list_1   # reference copy hota value change nhi hoti hai
+list_1[0] = 2
+print(list_2)
+
+a = 1
+b= a
+a = 2 
+print(a)
+print(b)
+
+
+list_1 = [1,2,3,4]
+list_2 = list_1[:]
+list_1[0] = 2
+print("list_2",list_2)
+print("list_1",list_1)
+
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[1:3]
+print(new_list)
+
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[1:-1]
+print(new_list)
+
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[-1:1]
+print(new_list)
+
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[:3]
+print(new_list)
+
+
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[3:]
+print(new_list)
+
+
+print(ord("A"))   # ord is print ASCII value of an element
+
+list = [10,8,6,4,2]
+del list[1:3]
+print(list)
+
+
+list = [10,8,6,4,2]
+del list[:]
+print(list)
+
+my_list = [10, 8, 6, 4, 2]
+del my_list
+print(my_list)
+
+my_list = [0, 3, 12, 8, 2]
+print(5 in my_list)
+print(5 not in my_list)
+print(12 in my_list)
+
+my_list = [17,3,11,5,1,9,7,15,13]
+
+largest = my_list[0]
+for i in my_list:
+  if i>largest:
+    largest = i
+print(largest)   
+
+
+l = []
+for i in range(1,31): 
+  if (i%2==0):
+    l.append(i)   
+print(l)
+
+l = [i for i in range(1,31) if i%2==0]
+print(l)
+
+ 
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for i in range(len(my_list)):
+ if my_list[i]==5:                                                                       
+        print(i) 
+
+a = 10
+b = 20 
+print(a==b)
+print(a!=b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+
+a = 20
+b = 30
+
+print(a<b and a == 20)
+print(a>b and a ==20)
+
+print(a<b or a == 20)
+print(a>b or a == 20)
+
+print(not(a<b and a == 20))
+print(not(a>b and a ==20))
+
+a = 20
+b = 30
+
+print( a is b)
+print(a is not b )
+
+x = ["Maruti","BMW"]
+y = ["Maruti","BMW"]
+z = x
+
+print(x is y)
+print( x is z)
+print( x is y )
+
+x = ["Maruti","BMW"]
+y = ["Maruti","BMW"]
+
+print("Maruti " in x)
+print("Maruti " not in x)
+
+# Bitwise opreters
+x = 10   #    0000 1010
+y = 20   #    0001 0100
+
+print (x&y)  # AND opreter
+print(x|y)   # OR opreter
+print(x^y)   # XOR opreter
+print(~x)    # NOT opreter
+print(~y)    # NOT opreter
+print(x <<2) # Left side 
+print(y <<2) # Left side
+print(x<<2)  # Right side
+print(x<<2)  # Right side
+
+
+text = ' Hello python world! '
+# Replace
+print(text.replace('python','Ai'))    #Hello Ai world! 
+
+
+# Spilt and join
+csv = ' Rahul,22,Bhopal,Enginer'
+parts = csv.split(' ,')
+print("Parts", parts)   #Parts [' Rahul,22,Bhopal,Enginer']
+print(parts[0])
+rejoined = " | ".join(parts)
+print("rejoined" ,rejoined)
+
+
+#check content
+
+print('hello123'.isalnum())
+print('12345'.isdigit())
+print("helllo".isalpha())
+print(" ".isspace())
+
+
+email = "student@gmail.com"
+print(email.endswith(".com"))
+print(email.startswith("stu"))
+
+
+name , marks , rank = "Yash" , 99.855,2
+print(name,marks,rank)
+
+print(F'HELLO, {name}')
+
+print(F'Marks : {marks:.2f}')
+print(F'Marks : {marks:.0f}')   # roundefingure
+print(F'Marks : {100000: ,}')
+
+print(f'{name:<15}|{marks:>8.2f}|rank{rank}')
+
+
+
+price , gst = 500 , 0.18
+print(f'Price:Rs.{price}  | GST:Rs.{price*gst:.2f}')
+
+# Name Card Program
+
+first_name = input("Enter First Name: ")
+last_name = input("Enter Last Name: ")
+age = input("Enter Age: ")
+city = input("Enter City: ")
+skill = input("Enter Favourite Skill: ")
+
+name = first_name + " " + last_name
+
+print("=" * 50)
+print(f"{'NAME':<10}: {name}")
+print(f"{'AGE':<10}: {age} years")
+print(f"{'CITY':<10}: {city}")
+print(f"{'SKILL':<10}: {skill}")
+print("=" * 50)
+
+
+num1 = int(input("Enter a number : "))
+num2 = int(input("Enter a number : "))
+
+if num1>num2:
+   larger_number = num1
+   
+else:
+  larger_number = num2
+ 
+print("The largest number is: ", larger_number)     
+
+num1 = int(input("Enter a First number "))
+num2 = int(input("Enter a Second  number "))
+num3 = int(input("Enter a Third  number "))
+if num1 > num2 and  num1 >num3 :larger_num = num1
+elif   num2 >num3 and num2 >num1: larger_num = num2
+else :  larger_num = num3
+print("Larger number is : ", larger_num)      
+
+
+num1 = int(input("Enter a First number : "))
+num2 = int(input("Enter a Second number : "))
+num3 = int(input("Enter a Third number : "))
+
+if num1 > num2 and num1 > num3 : 
+  largest  = num1
+elif num2 > num1 and num2 > num3 :
+  largest = num2
+else :
+  largest = num3
+print("Largest number is : " , largest)    
+
+  
+num1 = int(input("Enter a First number "))
+num2 = int(input("Enter a Second  number "))
+num3 = int(input("Enter a Third  number "))
+
+largest_num = max(num1,num2,num3)
+minmum = min(num1,num2,num3)
+print("Largest  number is : ", largest_num)  
+print("Minimum number is  " ,minmum)
+
+
+
+
+
+user = str(input("Enter a sentence : "))
+
+if user == "Spathiphyllum":
+  print("Yes - Spathiphyllum is the best plant ever!")
+elif user=="spathiphyllum":
+  print("No, I want a big Spathiphyllum!")
+else:
+  print("Spathiphyllum! Not", user "!")
+
+
+while True:
+  print("I am stuck in loop")
+
+
+num =  int(input("Enter a number or type -1 to stop"))
+while num != -1:
+   if num > largest_number :
+     largest_number = num 
+   num =  int(input("Enter a number or type -1 to stop"))
+print("largest number is :",largest_number)    
+
+number =  int(input("Enter a number : "))
+even_count  =0
+odd_count =0
+while number !=0:
+    if number % 2==0:
+        even_count +=1
+    else:
+        odd_count +=1  
+    number =  int(input("Enter a number : "))     
+print("Even :" , even_count)
+print("odd :" , odd_count)        
+
+counter = 0
+while counter < 100:
+  print(counter)
+  counter += 1
+  
+for i in range(100):
+     print(i)
+
+exit = 1
+
+while exit != 0:
+  exit = int(input("Enter a number"))
+  print(exit)
+
+for counter in range(10):
+  print("The value of counter is currently " , counter )
+
+
+for counter in range(2,1):
+  print("The value of counter is currently " , counter )
+
+
+power = 1
+for expo in range(16):
+ print("2 to the power of", expo, "is", power)
+ power *= 2
+
+import time
+for counter in range(5):
+  print(counter, "Mississippi")
+  time.sleep(1)
+print("Ready or not, here I come!")
+
+power = 1
+for expo in range(16):
+  if expo ==7:
+    continue
+  print("2 to the power of", expo, "is", power)
+  power *=2
+
+power = 1
+for expo in range(16):
+ print("2 to the power of", expo, "is", power)
+ power *= 2
+ if expo == 5:
+  break
+print("--------Now I am out------------")
+    
+
+print("The break instructions : ")
+for counter in range (1,6):
+    if counter == 3:
+      break
+    print("Inside the loop",counter)
+print("Outside the loop")     
+    
+    
+print("The break instructions : ")
+for counter in range (1,6):
+    if counter == 3:
+     continue
+    print("Inside the loop",counter)
+print("Outside the loop")  
+
+largest_number = -9999999
+counter = 0
+
+while True:
+  number = int(input("Enter a number or typr -1 to stop the program : "))
+  if number == -1:
+    break
+  counter +=1
+  if number > largest_number:
+    largest_number = number
+if counter != 0:
+  print("The largest number is ",largest_number)
+else:
+  print("You haven't entered any number ") 
   
   
-# i = 1
-# j = not not i 
-# print(i)
+i = 1
+j = not not i 
+print(i)
 # print(j)
 
 """
@@ -1111,138 +1111,138 @@ numbers [0] = address in number + (size of element * index)
               
 """       
 
-# numbers = [ 10 ,5, 7, 2, 1]
-# print(numbers)
-# print(type(numbers))
+numbers = [ 10 ,5, 7, 2, 1]
+print(numbers)
+print(type(numbers))
 
-# print(numbers[0])
-# print(numbers[1])
-# print(numbers[2])
-# print(numbers[3])
-# print(numbers[4])
+print(numbers[0])
+print(numbers[1])
+print(numbers[2])
+print(numbers[3])
+print(numbers[4])
 
-# numbers[3] = 20
-# print(numbers)
+numbers[3] = 20
+print(numbers)
 
-# numbers[2] = numbers[0]
-# print(numbers)
-
-
-# numbers[2],numbers[1] = numbers[1] ,numbers[2]
-# print(numbers)
-
-# print(len(numbers))
-
-# del numbers[4]
-# print(numbers)
-
-# print(len(numbers))
+numbers[2] = numbers[0]
+print(numbers)
 
 
-# print(numbers[-1])
-# print(numbers[-2])
-# print(numbers[-3])
-# print(numbers[-4])
+numbers[2],numbers[1] = numbers[1] ,numbers[2]
+print(numbers)
 
-# print(id(numbers))
-# print(hex(id(numbers)))
-# print(hex(id(numbers[0])))
-# print(hex(id(numbers[1])))
-# print(hex(id(numbers[2])))
-# print(hex(id(numbers[3])))
+print(len(numbers))
+
+del numbers[4]
+print(numbers)
+
+print(len(numbers))
 
 
+print(numbers[-1])
+print(numbers[-2])
+print(numbers[-3])
+print(numbers[-4])
+
+print(id(numbers))
+print(hex(id(numbers)))
+print(hex(id(numbers[0])))
+print(hex(id(numbers[1])))
+print(hex(id(numbers[2])))
+print(hex(id(numbers[3])))
 
 
 
-# hat = [1,2,3,4,5]
-# print(len(hat))
-# del hat [-1]
-# print(hat)
-# hat[len(hat)//2] = int(input("Enter a interger number"))
-# print(hat)
 
 
-# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
-# for i in range(10):
-#  my_list[i] += 1
-# print(my_list)
+hat = [1,2,3,4,5]
+print(len(hat))
+del hat [-1]
+print(hat)
+hat[len(hat)//2] = int(input("Enter a interger number"))
+print(hat)
+
+
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
+for i in range(10):
+ my_list[i] += 1
+print(my_list)
 
  
 
-# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-# total = 0
-# for i in my_list:
-#     total += i
-# print(total)
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+total = 0
+for i in my_list:
+    total += i
+print(total)
 
 
-# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-# index  = 0
-# for abc in my_list:
-#   print("my_list [" ,index, "]  => " ,abc )
-#   index += 1
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+index  = 0
+for abc in my_list:
+  print("my_list [" ,index, "]  => " ,abc )
+  index += 1
 
-# a = 10
-# b = 20
+a = 10
+b = 20
 
-# print("a:" , a)
-# print("b:" , b)
+print("a:" , a)
+print("b:" , b)
 
-# print("_________")
-# # x = a
-# # a = b
-# # b = x
+print("_________")
+x = a
+a = b
+b = x
 
-# a,b = b,a
+a,b = b,a
 
-# print("a:" , a)
-# print("b:" , b)
+print("a:" , a)
+print("b:" , b)
 
-# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-# print(my_list)
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+print(my_list)
 
-# # SWAP A VALUE - 2nd and 5th values
+# SWAP A VALUE - 2nd and 5th values
 
-# my_list[1],my_list[4] = my_list[4] , my_list[1]
-# print(my_list)
+my_list[1],my_list[4] = my_list[4] , my_list[1]
+print(my_list)
 
-# my_list= [8,10,6,2,4,]
-# swap = True
+my_list= [8,10,6,2,4,]
+swap = True
+count = 0
+while swap:
+  swap = False
+  for i in range(len(my_list)-1):
+    count +=1
+    if my_list[i] > my_list[i+1]:
+      swap = True
+      my_list[i],my_list[i+1] = my_list[i+1] , my_list[i]
+print(my_list)
+print("Loops are running for :", count , "timmes")  
+
+list = [8,10,6,2,4,]
+print(list)
 # count = 0
-# while swap:
-#   swap = False
-#   for i in range(len(my_list)-1):
-#     count +=1
-#     if my_list[i] > my_list[i+1]:
-#       swap = True
-#       my_list[i],my_list[i+1] = my_list[i+1] , my_list[i]
-# print(my_list)
-# print("Loops are running for :", count , "timmes")  
-
-# list = [8,10,6,2,4,]
-# print(list)
-# # count = 0
-# for i in range(len(list)-1):
-#   for  i1 in range(len(list)-1):
-#     if list[i1]> list[i1 +1]:
-#       list[i1] , list[i1 +1] = list[i1 +1] , list[i1 ]
-#     count +=1 
-# print(list)
-# print("Loops are running for :", count , "timmes") 
+for i in range(len(list)-1):
+  for  i1 in range(len(list)-1):
+    if list[i1]> list[i1 +1]:
+      list[i1] , list[i1 +1] = list[i1 +1] , list[i1 ]
+    count +=1 
+print(list)
+print("Loops are running for :", count , "timmes") 
       
       
 
-# list = [8,10,6,2,4,]
-# print(list)
-# count = 0
-# for i in range(len(list)-1):
-#   for  i1 in range(len(list)-1 -i):
-#     if list[i1]> list[i1 +1]:
-#       list[i1] , list[i1 +1] = list[i1 +1] , list[i1 ]
-#     count +=1 
-# print(list)
-# print("Loops are running for :", count , "timmes")       
+list = [8,10,6,2,4,]
+print(list)
+count = 0
+for i in range(len(list)-1):
+  for  i1 in range(len(list)-1 -i):
+    if list[i1]> list[i1 +1]:
+      list[i1] , list[i1 +1] = list[i1 +1] , list[i1 ]
+    count +=1 
+print(list)
+print("Loops are running for :", count , "timmes")       
 """
 DRY RUN 
 current list [ 8,10,6,2,4]
@@ -1252,79 +1252,79 @@ index1 (0-3)   0  1  2  3
 
 
 """
-# my_list = [8,10,6,2,4]
-# my_list.sort
-# print(my_list)
+my_list = [8,10,6,2,4]
+my_list.sort
+print(my_list)
 
-# my_list = [8,10,6,2,4]
-# print(my_list)
-# my_list.reverse()
-# print(my_list)
+my_list = [8,10,6,2,4]
+print(my_list)
+my_list.reverse()
+print(my_list)
 
-# lst = ['D','F','A' ,'E']
-# lst.sort()
-# print(lst)
-
-
-
-# my_list = [0, 3, 12, 8, 2]
-# print(5 in my_list)
-# print(5 not in my_list)
-# print(12 in my_list)
-
-# list_1 = ["A", "B", "C"]
-# list_2 = list_1
-# list_3 = list_2
-# del list_1[0]
-# del list_2[0]
-# print(list_3)
+lst = ['D','F','A' ,'E']
+lst.sort()
+print(lst)
 
 
 
-# list_1 = ["A", "B", "C"]
-# list_2 = list_1
-# list_3 = list_2
-# del list_1[0]
-# del list_2
-# print(list_3)
+my_list = [0, 3, 12, 8, 2]
+print(5 in my_list)
+print(5 not in my_list)
+print(12 in my_list)
 
-# list_1 = ["A", "B", "C"]
-# list_2 = list_1
-# list_3 = list_2
-# del list_1[0]
-# del list_2[:]
-# print(list_3)
-
-# list_1 = ["A", "B", "C"]
-# list_2 = list_1[:]
-# list_3 = list_2[:]
-# del list_1[0]
-# del list_2[0]
-# print(list_3)
+list_1 = ["A", "B", "C"]
+list_2 = list_1
+list_3 = list_2
+del list_1[0]
+del list_2[0]
+print(list_3)
 
 
-# row = []
-# for i in range(8):
-#   row.append("WHITE_PAWN")
-# print(row)  
 
-# row = ["WHITE_PAWN" for i in range(8)]
-# print(row)
+list_1 = ["A", "B", "C"]
+list_2 = list_1
+list_3 = list_2
+del list_1[0]
+del list_2
+print(list_3)
 
-# square = [ x ** 2 for x in range(10)]
-# print(square)
+list_1 = ["A", "B", "C"]
+list_2 = list_1
+list_3 = list_2
+del list_1[0]
+del list_2[:]
+print(list_3)
 
-# twos = [ 2 ** i for i in range(8)]
-# print(twos)
+list_1 = ["A", "B", "C"]
+list_2 = list_1[:]
+list_3 = list_2[:]
+del list_1[0]
+del list_2[0]
+print(list_3)
 
-# odds = [x for x in square if x % 2 != 0 ]
-# print(odds)
 
-# board = []
-# for i in range(8):
-#     row=["EMPTY" for i in range(8)]
-#     board.append(row)
-# print(board) 
+row = []
+for i in range(8):
+  row.append("WHITE_PAWN")
+print(row)  
+
+row = ["WHITE_PAWN" for i in range(8)]
+print(row)
+
+square = [ x ** 2 for x in range(10)]
+print(square)
+
+twos = [ 2 ** i for i in range(8)]
+print(twos)
+
+odds = [x for x in square if x % 2 != 0 ]
+print(odds)
+
+board = []
+for i in range(8):
+    row=["EMPTY" for i in range(8)]
+    board.append(row)
+print(board) 
 
 
 
@@ -1357,97 +1357,97 @@ git checkout  -b (ye devlopment barnch ke anndar ek new barnch banna deta hai or
 
 
 
-# print("Yash PAtidar")
-# print("HEloo ")
+print("Yash PAtidar")
+print("HEloo ")
 
 
 
-# board = []
-# for i in range(8):
-#     row=["EMPTY" for i in range(8)]
-#     board.append(row)
-# # print(board) 
+board = []
+for i in range(8):
+    row=["EMPTY" for i in range(8)]
+    board.append(row)
+# print(board) 
 
-# board[0][0] = "ROOK"
-# board[0][7] = "ROOK"
-# board[7][0] = "ROOK"
-# board[7][7] = "ROOK"
+board[0][0] = "ROOK"
+board[0][7] = "ROOK"
+board[7][0] = "ROOK"
+board[7][7] = "ROOK"
 
-# board[0][1] = "KNIGHT"
-# board[0][6] = "KNIGHT"
-# board[7][1] = "KNIGHT"
-# board[7][6] = "KNIGHT"
-
-
-# for index in range(len(board)):
-#   print(board[index])
-
-# temps = [ [ 0.0 for h in range (24)] for d in range(31) ]
-# # print(temps)
-
-# random = [ 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34,  12]
-
-# print(len(random))
-
-# for  i in range(len(temps)):
-#   temps[i][11] = random[i]
+board[0][1] = "KNIGHT"
+board[0][6] = "KNIGHT"
+board[7][1] = "KNIGHT"
+board[7][6] = "KNIGHT"
 
 
-# for i in range(len(temps)):
-#   print(temps[i])
+for index in range(len(board)):
+  print(board[index])
+
+temps = [ [ 0.0 for h in range (24)] for d in range(31) ]
+# print(temps)
+
+random = [ 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34, 20 ,30 ,44 , 12, 34,  12]
+
+print(len(random))
+
+for  i in range(len(temps)):
+  temps[i][11] = random[i]
 
 
-# # calculate the average tempertaure of the month.
-# # total = 0.0
-# # for day in temps:
-# #  total += day[11]
-# # average = total / 31
-# # print("Average temperature at noon:", average)
-
-# sum = 0 
-# for  i in range(len(temps)):
-#       sum += temps[i][11] 
-# print(sum/31)      
-
-#  # highest temperature during the whole month
-# # highest = -100.0
-# # for day in temps:
-# #  for temp in day:
-# #    if temp > highest:
-# #     highest = temp
-# # print("The highest temperature was:", highest) 
-# highest = 0
-# for  i in range(len(temps)):
-#   for inner_i in range(len(temps[i])):
-#     if highest < temps[i][inner_i]:
-#       highest = temps[i][inner_i]
-
-# print("The highest temperature was:", highest)
+for i in range(len(temps)):
+  print(temps[i])
 
 
-# # lowest temperature during the whole month
-# lowest = 0 
-# for  i in range(len(temps)):
-#   for inner_i in range(len(temps[i])):
-#     if lowest > temps[i][inner_i]:
-#       lowest = temps[i][inner_i]
+# calculate the average tempertaure of the month.
+# total = 0.0
+# for day in temps:
+#  total += day[11]
+# average = total / 31
+# print("Average temperature at noon:", average)
+
+sum = 0 
+for  i in range(len(temps)):
+      sum += temps[i][11] 
+print(sum/31)      
+
+ highest temperature during the whole month
+highest = -100.0
+for day in temps:
+ for temp in day:
+   if temp > highest:
+    highest = temp
+print("The highest temperature was:", highest) 
+highest = 0
+for  i in range(len(temps)):
+  for inner_i in range(len(temps[i])):
+    if highest < temps[i][inner_i]:
+      highest = temps[i][inner_i]
+
+print("The highest temperature was:", highest)
+
+
+# lowest temperature during the whole month
+lowest = 0 
+for  i in range(len(temps)):
+  for inner_i in range(len(temps[i])):
+    if lowest > temps[i][inner_i]:
+      lowest = temps[i][inner_i]
       
-# print("The lowest temperature was:" ,lowest)      
+print("The lowest temperature was:" ,lowest)      
 
 
 
-# rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
-# # print(rooms)
-# for building_inner in range(len(rooms)):
-#   print("Building" , building_index +1)
-#   for floor_index in range(len(rooms[building_index])):
-#       print("Floor , floor_index +1")
-      # print(rooms[building_index][floor_index])
+rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
+# print(rooms)
+for building_inner in range(len(rooms)):
+  print("Building" , building_index +1)
+  for floor_index in range(len(rooms[building_index])):
+      print("Floor , floor_index +1")
+      print(rooms[building_index][floor_index])
       
-# #  in the second building, on the tenth floor, room 14:
-# rooms[1][9][13] = True
-# # release the second room on the fifth floor located in the first building:
-# rooms[0][4][1] = False
+#  in the second building, on the tenth floor, room 14:
+rooms[1][9][13] = True
+# release the second room on the fifth floor located in the first building:
+rooms[0][4][1] = False
 
 # # Check if there are any vacancies on the 15th floor of the third building:
 
@@ -1456,229 +1456,229 @@ building  1     [2]
 floors    1     [14]
 rooms     20    [20]
 """
-# rooms[2][14][0] = True
-# rooms[2][14][1] = True
-# rooms[2][14][2] = True
-# rooms[2][14][3] = True
-# rooms[2][14][4] = True
-# rooms[2][14][5] = True
-# rooms[2][14][6] = True                                      
+rooms[2][14][0] = True
+rooms[2][14][1] = True
+rooms[2][14][2] = True
+rooms[2][14][3] = True
+rooms[2][14][4] = True
+rooms[2][14][5] = True
+rooms[2][14][6] = True                                      
 
 
-# temp = -1
-# for room_index in range(len(rooms[2][14])):
-#   if rooms[2][14][room_index] == False:
-#     temp = room_index
-#     break
-#   print(rooms[2][14][room_index])
+temp = -1
+for room_index in range(len(rooms[2][14])):
+  if rooms[2][14][room_index] == False:
+    temp = room_index
+    break
+  print(rooms[2][14][room_index])
   
-# if temp == -1:
-#   print("No Rooms Avaiable !")
-# else:
-#   print(f'{temp+1}th Room is available')    
+if temp == -1:
+  print("No Rooms Avaiable !")
+else:
+  print(f'{temp+1}th Room is available')    
  
  
-# MODULE- 4    FUNCTIONS
+MODULE- 4    FUNCTIONS
 
-# def message():
-#   print("Enter a value")
-#   a = int(input())
-#   print(a)
+def message():
+  print("Enter a value")
+  a = int(input())
+  print(a)
 
-# message()  
-# message()
-# message()
-
-
-# print("Enter a value")
-# a = int(input())
-# print(a)
+message()  
+message()
+message()
 
 
-# print("Enter a value")
-# b = int(input())
-# print(b)
+print("Enter a value")
+a = int(input())
+print(a)
 
 
-# print("Enter a value")
-# c = int(input())
-# print(c)
+print("Enter a value")
+b = int(input())
+print(b)
 
 
-# def message ():
-#   print("Enter  next value : ")
-# print("We start here. ") 
-# message()
-# print("The end is here ") 
+print("Enter a value")
+c = int(input())
+print(c)
 
 
-# print("We start here. ") 
-# message()
-# print("The end is here ") 
-# def message ():
-#    print("Enter  next value : ")
+def message ():
+  print("Enter  next value : ")
+print("We start here. ") 
+message()
+print("The end is here ") 
+
+
+print("We start here. ") 
+message()
+print("The end is here ") 
+def message ():
+   print("Enter  next value : ")
 
 
 
-# def message():
-#   print("Enter a value")
-#   return
-#   a = int(input())
+def message():
+  print("Enter a value")
+  return
+  a = int(input())
  
-# a = message()
+a = message()
 
-# print(message())
+print(message())
 
-# message()  
-
-
-
-# def hi (num ):                #parameter = num
-#   print("hi")
-# hi(5)                         # arugment
+message()  
 
 
-# def hello(n):                              # defining a function
-#   print("Hello " ,  n)                       # body of the function 
+
+def hi (num ):                #parameter = num
+  print("hi")
+hi(5)                         # arugment
+
+
+def hello(n):                              # defining a function
+  print("Hello " ,  n)                       # body of the function 
   
-# name = input("Enter your name : ")
-# hello(name)                                # calling ths function
+name = input("Enter your name : ")
+hello(name)                                # calling ths function
 
-# def message(num):
-#   print("Number " , number )
-#   print("Num " , num )
+def message(num):
+  print("Number " , number )
+  print("Num " , num )
   
-# number = 1234
-# message(1)
-# print(number)  
+number = 1234
+message(1)
+print(number)  
 
 
-# def message(what , number):
-#   print("Enter " , what , "Number" , number )
+def message(what , number):
+  print("Enter " , what , "Number" , number )
   
-# message("telephone" , 11)
-# message("price" , 5)
-# message("number", "number")  
+message("telephone" , 11)
+message("price" , 5)
+message("number", "number")  
 
 
-# def introduction(first_name , last_name):
-#   print("Hello my name is " , first_name,last_name)
+def introduction(first_name , last_name):
+  print("Hello my name is " , first_name,last_name)
   
-# introduction("yash","patidar")
-# introduction("Mohit" , "Patidar")
-# introduction("Vinay" , "Patidar")  
+introduction("yash","patidar")
+introduction("Mohit" , "Patidar")
+introduction("Vinay" , "Patidar")  
 
 
-# def introduction(first_name , last_name):
-#   print("Hello my name is " , first_name,last_name)
+def introduction(first_name , last_name):
+  print("Hello my name is " , first_name,last_name)
   
-# introduction("patidar","yash")
-# introduction("Patidar","Mohit")
-# introduction("Patidar","Vinay")  
+introduction("patidar","yash")
+introduction("Patidar","Mohit")
+introduction("Patidar","Vinay")  
 
-# def print_grade(name , marks):
-#   grade = ""
-#   if marks < 50:
-#     grade = "D"
-#   elif marks < 60:
-#     grade = "C" 
-#   elif marks <75 :
-#    grade = "B"  
-#   elif marks < 90:
-#     grade = "A"
-#   elif marks > 90:
-#     grade = "A+" 
-#   print(f'Hello {name}, your Grade from {marks} is {grade} !') 
+def print_grade(name , marks):
+  grade = ""
+  if marks < 50:
+    grade = "D"
+  elif marks < 60:
+    grade = "C" 
+  elif marks <75 :
+   grade = "B"  
+  elif marks < 90:
+    grade = "A"
+  elif marks > 90:
+    grade = "A+" 
+  print(f'Hello {name}, your Grade from {marks} is {grade} !') 
   
   
-# print_grade("Kaushal",0)   
-# print_grade("Dipesh",80)
-# print_grade("Harshit",70)
-# print_grade("Harshraj",60)
-# print_grade("Yashraj",95)
-# print_grade("Mohit",55)
-# print_grade(55,"Mohit")                           # in this line we typeerror we use first marks then name
+print_grade("Kaushal",0)   
+print_grade("Dipesh",80)
+print_grade("Harshit",70)
+print_grade("Harshraj",60)
+print_grade("Yashraj",95)
+print_grade("Mohit",55)
+print_grade(55,"Mohit")                           # in this line we typeerror we use first marks then name
     
     
-# def introductions(fisrt_name ,last_name="NA"):
-#   print("Hello , my name is ", fisrt_name , last_name)
+def introductions(fisrt_name ,last_name="NA"):
+  print("Hello , my name is ", fisrt_name , last_name)
   
-# introductions(fisrt_name = "yash" , last_name= "Patidar")
-# introductions(last_name= "Patidar" , fisrt_name= "Vinay")
-# introductions("Patidar","Vinay")
-# introductions("Ram")
-# introductions("Ram" , "Patidar")      
+introductions(fisrt_name = "yash" , last_name= "Patidar")
+introductions(last_name= "Patidar" , fisrt_name= "Vinay")
+introductions("Patidar","Vinay")
+introductions("Ram")
+introductions("Ram" , "Patidar")      
 
-# def adding(a,b,c):
-#     print(a, "+" , b, "+" ,  c,"=" , a + b + c)
+def adding(a,b,c):
+    print(a, "+" , b, "+" ,  c,"=" , a + b + c)
   
-# adding(1,2,3)
-# adding(c = 1 , a = 2 , b =3 )
-# adding( 3, c =1 , b =2 )
-# adding(a = 1 , 3 , b =2)     # error (due to element 3 because it in wrong order)  
-# adding(3 , a = 1 , b = 2)    # error 
+adding(1,2,3)
+adding(c = 1 , a = 2 , b =3 )
+adding( 3, c =1 , b =2 )
+adding(a = 1 , 3 , b =2)     # error (due to element 3 because it in wrong order)  
+adding(3 , a = 1 , b = 2)    # error 
 
 
-# def happy_new_year(wishes = True):
-#   print("Three ..... ")
-#   print("Two ..... ")
-#   print("One.......")
-#   if not wishes:
-#     return
-#   print("Happy New Year !")
+def happy_new_year(wishes = True):
+  print("Three ..... ")
+  print("Two ..... ")
+  print("One.......")
+  if not wishes:
+    return
+  print("Happy New Year !")
 
-# happy_new_year()
-# happy_new_year(False)  
-
-
-
-# def boring_function():
-#   return 123                      # in return 123 ye wasap return nahi behje ja kyuki ab return ke andar value store hai 
-
-# x = boring_function()
-
-# print("The boring_function has returned its result. It's : " , x )
+happy_new_year()
+happy_new_year(False)  
 
 
 
-# print(None+2)
+def boring_function():
+  return 123                      # in return 123 ye wasap return nahi behje ja kyuki ab return ke andar value store hai 
 
-# value = None
-# if value is None:
-#   print("Sorry you don't carry anr value ")
+x = boring_function()
+
+print("The boring_function has returned its result. It's : " , x )
+
+
+
+print(None+2)
+
+value = None
+if value is None:
+  print("Sorry you don't carry anr value ")
   
-# value  = input("Enter  NONE ")
-# if value == "":
-#   value = None
-# print(value)
-# print(type(value))  
+value  = input("Enter  NONE ")
+if value == "":
+  value = None
+print(value)
+print(type(value))  
   
   
-# def strange_functions(n):
-#   if(n%2 == 0):
-#     return True
+def strange_functions(n):
+  if(n%2 == 0):
+    return True
   
-# print(strange_functions(2))
-# print(strange_functions(1))        # if statment is not True it return NONE
+print(strange_functions(2))
+print(strange_functions(1))        # if statment is not True it return NONE
 
 # kabhi ek se jada functions print karna ho to list ke aandar dal do 
 
 
 
-# def list_sum(lst):
-#   s = 0 
-#   for elem in lst :
-#    s += elem
-#   return s
-# print(list_sum([5,4,3,2,1])) 
+def list_sum(lst):
+  s = 0 
+  for elem in lst :
+   s += elem
+  return s
+print(list_sum([5,4,3,2,1])) 
 
-# def strange_list_fun(n):
-#   strange_list = []
+def strange_list_fun(n):
+  strange_list = []
   
-#   for i  in range(0,n):
-#     strange_list.insert(0,i)
-#   return strange_list
-# print(strange_list_fun(5))   
+  for i  in range(0,n):
+    strange_list.insert(0,i)
+  return strange_list
+print(strange_list_fun(5))   
 
 
 """
@@ -1688,551 +1688,530 @@ rooms     20    [20]
 """
 
 
-# def scope_test():
-#   x = 123
-# scope_test()
-# # print(x) 
+def scope_test():
+  x = 123
+scope_test()
+# print(x) 
 
-# def my_function():
-#   print("Do I Know that variable ? " , var )
+def my_function():
+  print("Do I Know that variable ? " , var )
 
-# var = 1    
-# my_function()
-# print(var)  
+var = 1    
+my_function()
+print(var)  
    
-# var =2 
-# def mult_by_var(x):
-#   return x * var
+var =2 
+def mult_by_var(x):
+  return x * var
 
-# print(mult_by_var(7))
+print(mult_by_var(7))
 
-# def mult(x):
-#   var = 5 
-#   return x * var
+def mult(x):
+  var = 5 
+  return x * var
 
-# print(mult(7))
+print(mult(7))
 
-# def adding(x):
-#   var =  7 
-#   return x + var 
+def adding(x):
+  var =  7 
+  return x + var 
 
-# print(adding(4))    #  output is 11
-# print(var)          # error because var is defined in adding function's local scope (NAME ERROR)
+print(adding(4))    #  output is 11
+print(var)          # error because var is defined in adding function's local scope (NAME ERROR)
 
-# def my_functions():
-#   global var 
-#   var = 2 
-#   print("Do I know that variable ? " , var)
+def my_functions():
+  global var 
+  var = 2 
+  print("Do I know that variable ? " , var)
   
-# var = 1
-# my_functions()
-# print(var)
+var = 1
+my_functions()
+print(var)
 
 
-# var = 2
-# print(var)                   # output = 2
+var = 2
+print(var)                   # output = 2
 
-# def return_var():
-#   global var 
-#   var = 5 
-#   return var
+def return_var():
+  global var 
+  var = 5 
+  return var
 
-# print(return_var())  
-# print(var)  
+print(return_var())  
+print(var)  
 
-# def my_functions(n):
-#   print("I got " , n)
-#   n += 1
-#   print("I have " , n)
+def my_functions(n):
+  print("I got " , n)
+  n += 1
+  print("I have " , n)
   
-# var =1 
-# my_functions(var)
-# print(var)  
+var =1 
+my_functions(var)
+print(var)  
 
-# def my_fun(my_list_1):         # local
-#   print("Print #1",my_list_1)  # local 
-#   print("Print #2",my_list_2)  #Global
-#   my_list_1 = [0,1]
-#   print("Print #3",my_list_1)  #local
-#   print("Print #4",my_list_2)  #global
+def my_fun(my_list_1):         # local
+  print("Print #1",my_list_1)  # local 
+  print("Print #2",my_list_2)  #Global
+  my_list_1 = [0,1]
+  print("Print #3",my_list_1)  #local
+  print("Print #4",my_list_2)  #global
   
-# my_list_2 = [2,3]              # Global 
-# my_fun(my_list_2)
-# print("Print #5", my_list_2 )
+my_list_2 = [2,3]              # Global 
+my_fun(my_list_2)
+print("Print #5", my_list_2 )
 
 
 
-# def my_fun(my_list_1):         # local
-#   print("Print #1",my_list_1)  # local 
-#   print("Print #2",my_list_2)  #Global
-#   del my_list_1[0]
-#   print("Print #3",my_list_1)  #local
-#   print("Print #4",my_list_2)  #global
+def my_fun(my_list_1):         # local
+  print("Print #1",my_list_1)  # local 
+  print("Print #2",my_list_2)  #Global
+  del my_list_1[0]
+  print("Print #3",my_list_1)  #local
+  print("Print #4",my_list_2)  #global
   
-# my_list_2 = [2,3]              # Global 
-# my_fun(my_list_2)
-# print("Print #5", my_list_2 )
+my_list_2 = [2,3]              # Global 
+my_fun(my_list_2)
+print("Print #5", my_list_2 )
 
-# def my_fun(my_list_1):         # local
-#   print("Print #1",my_list_1)  # local 
-#   print("Print #2",my_list_2)  #Global
-#   del my_list_1[0]
-#   print("Print #3",my_list_1)  #local
-#   print("Print #4",my_list_2)  #global
+def my_fun(my_list_1):         # local
+  print("Print #1",my_list_1)  # local 
+  print("Print #2",my_list_2)  #Global
+  del my_list_1[0]
+  print("Print #3",my_list_1)  #local
+  print("Print #4",my_list_2)  #global
   
-# my_list_2 = [2,3]              # Global 
-# my_fun(my_list_2)
-# print("Print #5", my_list_2 )
+my_list_2 = [2,3]              # Global 
+my_fun(my_list_2)
+print("Print #5", my_list_2 )
 
 
-# def my_fun(my_list_1):         # local
-#   print("Print #1",my_list_1)  # local 
-#   print("Print #2",my_list_2)  #Global
-#   del my_list_1[0]
-#   del v
-#   print("Print #3",my_list_1)  #local
-#   print("Print #4",my_list_2)  #global
+def my_fun(my_list_1):         # local
+  print("Print #1",my_list_1)  # local 
+  print("Print #2",my_list_2)  #Global
+  del my_list_1[0]
+  del v
+  print("Print #3",my_list_1)  #local
+  print("Print #4",my_list_2)  #global
   
-# my_list_2 = [2,3]              # Global 
-# my_fun(my_list_2)
-# print("Print #5", my_list_2 )
+my_list_2 = [2,3]              # Global 
+my_fun(my_list_2)
+print("Print #5", my_list_2 )
 
 #  TUPLES  ()
 
 
-# tuples_1 = (1,2,3,4)
-# tuples_2 = 1, 2,3
-# print("tuple_1", tuples_1)
-# print("type of tuple_1", type(tuples_1))
-# print("tuple_2", tuples_2)   
-# print("type of tuple_2", type(tuples_2))
+tuples_1 = (1,2,3,4)
+tuples_2 = 1, 2,3
+print("tuple_1", tuples_1)
+print("type of tuple_1", type(tuples_1))
+print("tuple_2", tuples_2)   
+print("type of tuple_2", type(tuples_2))
 
 
-# empty_tuple = ()
-# print("empty_tuple",empty_tuple)
-# print("type of empty_tuple ", type(empty_tuple))
-# one_element_tuple_1 = (1,)
-# print("one_element_tuple_1",one_element_tuple_1)
-# print("type of one_element_tuple_1 ", type(one_element_tuple_1))
-# one_element_tuple_2 = 1,
-# print("one_element_tuple_2",one_element_tuple_2)
-# print("type of one_element_tuple_2 ", type(one_element_tuple_2))
+empty_tuple = ()
+print("empty_tuple",empty_tuple)
+print("type of empty_tuple ", type(empty_tuple))
+one_element_tuple_1 = (1,)
+print("one_element_tuple_1",one_element_tuple_1)
+print("type of one_element_tuple_1 ", type(one_element_tuple_1))
+one_element_tuple_2 = 1,
+print("one_element_tuple_2",one_element_tuple_2)
+print("type of one_element_tuple_2 ", type(one_element_tuple_2))
 
 
-# my_tuple = (1, 10, 100, 1000)
-# my_tuple.append(10000)
-# del my_tuple[0]
-# my_tuple[1] = -10
+my_tuple = (1, 10, 100, 1000)
+my_tuple.append(10000)
+del my_tuple[0]
+my_tuple[1] = -10
 
-# my_tuple = (1,)
-# my_tuple_1 = (2,)
-# my_new_tuple = my_tuple+my_tuple_1
-# print(my_new_tuple)
+my_tuple = (1,)
+my_tuple_1 = (2,)
+my_new_tuple = my_tuple+my_tuple_1
+print(my_new_tuple)
  
-# my_tuple_2 = (2,)
-# my_new_tuple = my_tuple_2 *2
-# print(my_new_tuple) 
+my_tuple_2 = (2,)
+my_new_tuple = my_tuple_2 *2
+print(my_new_tuple) 
 
 
-# my_tuple = (1, 10, 100)
+my_tuple = (1, 10, 100)
 
-# t1 = my_tuple+(1000, 10000)
-# t2 = my_tuple*3
+t1 = my_tuple+(1000, 10000)
+t2 = my_tuple*3
 
-# print(len(t2))
-# print(t1)
-# print(t2)
-# print(10 in my_tuple)
-# print(-10 not in my_tuple)
+print(len(t2))
+print(t1)
+print(t2)
+print(10 in my_tuple)
+print(-10 not in my_tuple)
 
-# #  EXAMPLE 1
-# tuple_1 =(1, 2, 3, 4)
-# for elment in tuple_1:
-#   print(elment)
-# print("--------")  
+#  EXAMPLE 1
+tuple_1 =(1, 2, 3, 4)
+for elment in tuple_1:
+  print(elment)
+print("--------")  
 
-# #  EXAMPLE 2
-# tuple_2 = (1,2,3,4)
-# print(5 in tuple_2)
-# print(5 not in tuple_2)
-# print("--------") 
+#  EXAMPLE 2
+tuple_2 = (1,2,3,4)
+print(5 in tuple_2)
+print(5 not in tuple_2)
+print("--------") 
  
-# #  EXAMPLE 3
-# tuple_3 = ( 1,2,3,4)
-# print(len(tuple_3))
-# print(5 not in tuple_3)
-# print("--------")  
+#  EXAMPLE 3
+tuple_3 = ( 1,2,3,4)
+print(len(tuple_3))
+print(5 not in tuple_3)
+print("--------")  
 
-# #  EXAMPLE 4
-# tuple_4 = tuple_1+tuple_2
-# tuple_5 = tuple_3*2
-# print(tuple_4)
-# print(tuple_5)
-# print(tuple_5[0])
-# print(tuple_5[1])
-# print("--------")  
-
-
-# my_tuple = tuple((1,2,"string"))
-# print(my_tuple)
-
-# my_list = [2,4,6]
-# print(my_list)                 # outputs: [2, 4, 6]
-# print(type(my_list))           # outputs: <class 'list'>
-# tup = tuple(my_list)           # outputs: (2, 4, 6)
-# print(tup)
-# print(type(tup))               # outputs: <class 'tuple'>
+#  EXAMPLE 4
+tuple_4 = tuple_1+tuple_2
+tuple_5 = tuple_3*2
+print(tuple_4)
+print(tuple_5)
+print(tuple_5[0])
+print(tuple_5[1])
+print("--------")  
 
 
-# var = 123
+my_tuple = tuple((1,2,"string"))
+print(my_tuple)
 
-# t1 = (1,)
-# t2 = (2,)
-# t3 = (3 ,var)
-
-# t1,t2,t3 = t2,t3,t1
-
-# print(t1,t2,t3)
-
-
-#   DICTIONARY
+my_list = [2,4,6]
+print(my_list)                 # outputs: [2, 4, 6]
+print(type(my_list))           # outputs: <class 'list'>
+tup = tuple(my_list)           # outputs: (2, 4, 6)
+print(tup)
+print(type(tup))               # outputs: <class 'tuple'>
 
 
-# dictionary = {
-#   "cat" : "chat",
-#   "dog": "chien",
-#   "horse" : "chevel"
-# }
+var = 123
 
-# phone_number = {
-#   'boss': 9131789120,
-#   'suzy':22334578900
-# }
+t1 = (1,)
+t2 = (2,)
+t3 = (3 ,var)
 
-# empty_dictionary = {}
+t1,t2,t3 = t2,t3,t1
 
-# print("dictionary",dictionary)
-# print("type(dictionary)",type(dictionary))
-# print("phone_number " , phone_number)
-# print("type(phone_number)", type(phone_number))
-# print("empty_dictionary", empty_dictionary)
-# print("type(empty_dictionary)", type(empty_dictionary))
+print(t1,t2,t3)
 
 
-# print(dictionary["cat"])
-# print(dictionary["horse"])
+  DICTIONARY
 
 
-# dictionary = {
-#           "cat" : "chat",
-#           "dog": "chien",
-#            "horse" : "chevel"
-# }
+dictionary = {
+  "cat" : "chat",
+  "dog": "chien",
+  "horse" : "chevel"
+}
 
-# keys = ['cat' , 'lion', 'horse']
+phone_number = {
+  'boss': 9131789120,
+  'suzy':22334578900
+}
 
-# for key in keys:
-#   if key in dictionary:
-#     print(key , "-->", dictionary[key])
-#   else:
-#     print(key , "is not in dictionary")  
+empty_dictionary = {}
+
+print("dictionary",dictionary)
+print("type(dictionary)",type(dictionary))
+print("phone_number " , phone_number)
+print("type(phone_number)", type(phone_number))
+print("empty_dictionary", empty_dictionary)
+print("type(empty_dictionary)", type(empty_dictionary))
 
 
+print(dictionary["cat"])
+print(dictionary["horse"])
 
-# dictionary = {
-#           "cat" : "chat",
-#           "dog": "chien",
-#            "horse" : "chevel"
-# }
 
-# for key in dictionary.keys():
-#   print(key)
-#   print(dictionary[key])
-#   if key in dictionary:
-#     print(key , "-->", dictionary[key])
-#   else:
-#     print(key , "is not in dictionary")  
+dictionary = {
+          "cat" : "chat",
+          "dog": "chien",
+           "horse" : "chevel"
+}
+
+keys = ['cat' , 'lion', 'horse']
+
+for key in keys:
+  if key in dictionary:
+    print(key , "-->", dictionary[key])
+  else:
+    print(key , "is not in dictionary")  
 
 
 
+dictionary = {
+          "cat" : "chat",
+          "dog": "chien",
+           "horse" : "chevel"
+}
 
-# dictionary = {
-#           "cat" : "chat",
-#           "dog": "chien",
-#            "horse" : "chevel"
-# }
-
-# print(dictionary.items())
-# print(type(dictionary.items()))
-
-# for english , french in dictionary.items():
-#   print(english,"-->" , french)
-
-
-# for french in dictionary.values():
-#   print(french)
-
-# pol_eng_dictionary = {
-#       "zamek": "castle",
-#       "woda": "water",
-#       "gleba": "soil"
-#  }
-# pol_eng_dictionary_copy = pol_eng_dictionary               # assigment opreters refernce copy kar deta hai 
-# pol_eng_dictionary_copy_2 = pol_eng_dictionary.copy()      # .copy reference copy nahi karta matlab update hone ke bad usme value change nhi  hoti gi 
-
-# print(pol_eng_dictionary)
-# print(pol_eng_dictionary_copy)
-# print(pol_eng_dictionary_copy_2)
-
-# pol_eng_dictionary["one"] = 1      
-# print(pol_eng_dictionary)
-# print(pol_eng_dictionary_copy) 
-# print(pol_eng_dictionary_copy_2) 
-
-# pol_eng_dictionary = {
-#       "zamek": "castle",
-#       "woda": "water",
-#       "gleba": "soil"
-#  }
-
-# pol_eng_dictionary["zamek"] = "lock"
-# item = pol_eng_dictionary["zamek"]
-# print(item)
-# print("pol_eng_dictionary: " , pol_eng_dictionary)
-# del pol_eng_dictionary["zamek"]
-# print("pol_eng_dictionary" , pol_eng_dictionary )   
-
-
-#  CRUD = Create | Retrive | Update | Delete
+for key in dictionary.keys():
+  print(key)
+  print(dictionary[key])
+  if key in dictionary:
+    print(key , "-->", dictionary[key])
+  else:
+    print(key , "is not in dictionary")  
 
 
 
-# pol_eng_dictionary = {"kwait": "flower "}
 
-# pol_eng_dictionary.update({"gleba" : "soil"})
-# print(pol_eng_dictionary)
+dictionary = {
+          "cat" : "chat",
+          "dog": "chien",
+           "horse" : "chevel"
+}
 
-# pol_eng_dictionary.popitem()
-# print(pol_eng_dictionary)
+print(dictionary.items())
+print(type(dictionary.items()))
 
-# pol_eng_dictionary = {"gleba" : "soil"}
-
-# pol_eng_dictionary.update({"kwait": "flower "})
-# print(pol_eng_dictionary)
-
-# pol_eng_dictionary.popitem()
-# print(pol_eng_dictionary)
+for english , french in dictionary.items():
+  print(english,"-->" , french)
 
 
-# pol_eng_dictionary = {
-#       "zamek": "castle",
-#       "woda": "water",
-#       "gleba": "soil"
-#  }
+for french in dictionary.values():
+  print(french)
 
-# print(len(pol_eng_dictionary))                   # output : 3
-# del pol_eng_dictionary["zamek"]                  # remove an item  
-# print(len(pol_eng_dictionary))                   # output : 2
+pol_eng_dictionary = {
+      "zamek": "castle",
+      "woda": "water",
+      "gleba": "soil"
+ }
+pol_eng_dictionary_copy = pol_eng_dictionary               # assigment opreters refernce copy kar deta hai 
+pol_eng_dictionary_copy_2 = pol_eng_dictionary.copy()      # .copy reference copy nahi karta matlab update hone ke bad usme value change nhi  hoti gi 
+
+print(pol_eng_dictionary)
+print(pol_eng_dictionary_copy)
+print(pol_eng_dictionary_copy_2)
+
+pol_eng_dictionary["one"] = 1      
+print(pol_eng_dictionary)
+print(pol_eng_dictionary_copy) 
+print(pol_eng_dictionary_copy_2) 
+
+pol_eng_dictionary = {
+      "zamek": "castle",
+      "woda": "water",
+      "gleba": "soil"
+ }
+
+pol_eng_dictionary["zamek"] = "lock"
+item = pol_eng_dictionary["zamek"]
+print(item)
+print("pol_eng_dictionary: " , pol_eng_dictionary)
+del pol_eng_dictionary["zamek"]
+print("pol_eng_dictionary" , pol_eng_dictionary )   
 
 
-# pol_eng_dictionary.clear()                       # remove all items 
-# print(len(pol_eng_dictionary))                   # output : 0 
-
-# del pol_eng_dictionary                           #Name error 
-# print(pol_eng_dictionary)
+ CRUD = Create | Retrive | Update | Delete
 
 
-# Tuples and dictionaries can work together
-# school_class = {}
-# while True:
-#  name = input("Enter the student's name: ")
-#  if name == '':
-#   break
 
-#  score = int(input("Enter the student's score (0-10): "))
-#  if score not in range(0, 11):
-#   break
+pol_eng_dictionary = {"kwait": "flower "}
 
-#  if name in school_class:
-#   school_class[name] += (score,)
-#  else:
-#   school_class[name] = (score,)
+pol_eng_dictionary.update({"gleba" : "soil"})
+print(pol_eng_dictionary)
 
-# for name in sorted(school_class.keys()):
-#  adding = 0
-#  counter = 0
-#  for score in school_class[name]:
-#   adding += score
-#  counter += 1
-#  print(name, ":", adding / counter)
+pol_eng_dictionary.popitem()
+print(pol_eng_dictionary)
+
+pol_eng_dictionary = {"gleba" : "soil"}
+
+pol_eng_dictionary.update({"kwait": "flower "})
+print(pol_eng_dictionary)
+
+pol_eng_dictionary.popitem()
+print(pol_eng_dictionary)
+
+
+pol_eng_dictionary = {
+      "zamek": "castle",
+      "woda": "water",
+      "gleba": "soil"
+ }
+
+print(len(pol_eng_dictionary))                   # output : 3
+del pol_eng_dictionary["zamek"]                  # remove an item  
+print(len(pol_eng_dictionary))                   # output : 2
+
+
+pol_eng_dictionary.clear()                       # remove all items 
+print(len(pol_eng_dictionary))                   # output : 0 
+
+del pol_eng_dictionary                           #Name error 
+print(pol_eng_dictionary)
+
+
+Tuples and dictionaries can work together
+school_class = {}
+while True:
+ name = input("Enter the student's name: ")
+ if name == '':
+  break
+
+ score = int(input("Enter the student's score (0-10): "))
+ if score not in range(0, 11):
+  break
+
+ if name in school_class:
+  school_class[name] += (score,)
+ else:
+  school_class[name] = (score,)
+
+for name in sorted(school_class.keys()):
+ adding = 0
+ counter = 0
+ for score in school_class[name]:
+  adding += score
+ counter += 1
+ print(name, ":", adding / counter)
  
 
-# school = {}
+school = {}
 
-# while True:
-#   name = input("Enter a name of students : ")
-#   if name  == " ":
-#     break
+while True:
+  name = input("Enter a name of students : ")
+  if name  == " ":
+    break
   
-#   score = int(input("Enter a  the student marks : "))
-#   if score in range(0,101):
-#    break
+  score = int(input("Enter a  the student marks : "))
+  if score in range(0,101):
+   break
  
-  # Program to evaluate students' average score
+  Program to evaluate students' average score
 
-# students = {}
-# total = 0
+students = {}
+total = 0
 
-# while True:
-#     name = input("Enter student name: ")
+while True:
+    name = input("Enter student name: ")
 
-#     # Stop if the name is empty
-#     if name == "":
-#         break
+    # Stop if the name is empty
+    if name == "":
+        break
 
-#     score = float(input("Enter student's score: "))
-#     students[name] = score
-#     total += score
+    score = float(input("Enter student's score: "))
+    students[name] = score
+    total += score
 
-# # Calculate average
-# if len(students) > 0:
-#     average = total / len(students)
+# Calculate average
+if len(students) > 0:
+    average = total / len(students)
 
-#     print("\nStudent Details")
-#     print("-------------------------")
-#     for name, score in students.items():
-#         print(name, ":", score)
+    print("\nStudent Details")
+    print("-------------------------")
+    for name, score in students.items():
+        print(name, ":", score)
 
-#     print("-------------------------")
-#     print("Average Score =", average)
-# else:
-#     print("No student data entered.")
+    print("-------------------------")
+    print("Average Score =", average)
+else:
+    print("No student data entered.")
  
  
-# students = {}
+students = {}
 
-# while True:
-#     name = input("Enter student name (Press Enter to finish): ")
+while True:
+    name = input("Enter student name (Press Enter to finish): ")
 
-#     if name == "":
-#         break
+    if name == "":
+        break
 
-#     score = float(input("Enter score: "))
+    score = float(input("Enter score: "))
 
-#     if name in students:
-#         students[name].append(score)
-#     else:
-#         students[name] = [score]
+    if name in students:
+        students[name].append(score)
+    else:
+        students[name] = [score]
 
-# print("\nAverage Score of Each Student")
-# # print("------------------------------")
+print("\nAverage Score of Each Student")
+# print("------------------------------")
 
-# for name, scores in students.items():
-#     average = sum(scores) / len(scores)
-#     print(name, ":", average) 
+for name, scores in students.items():
+    average = sum(scores) / len(scores)
+    print(name, ":", average) 
  
-# dictionary = {}
+dictionary = {}
 
-# while True:
-#   name = input("Enter a student name :")
-#   if name != "":
-#     mark = float(input(f"enter {name}'s score :"))
-#     if name not in dictionary :
-#       dictionary.update({name:(mark,)})
-#     else:  
-#      dictionary[name] = dictionary[name] +(mark,)
-#   else :
-#     break
-#   for name , marks in dictionary.items():
-#     sum = 0
-#     for mark in marks:
-#       sum += mark
-#     print(f"{name}'s Average score is : { sum/len(marks)}")
+while True:
+  name = input("Enter a student name :")
+  if name != "":
+    mark = float(input(f"enter {name}'s score :"))
+    if name not in dictionary :
+      dictionary.update({name:(mark,)})
+    else:  
+     dictionary[name] = dictionary[name] +(mark,)
+  else :
+    break
+  for name , marks in dictionary.items():
+    sum = 0
+    for mark in marks:
+      sum += mark
+    print(f"{name}'s Average score is : { sum/len(marks)}")
       
    
-# tup = 1 ,2 ,3,4,5,6,7,2,2,8,9
-# duplicate = tup.count
-# print(tup)
+tup = 1 ,2 ,3,4,5,6,7,2,2,8,9
+duplicate = tup.count
+print(tup)
 
-#  OBJECT ORIENTED PROGRAMMING 
-#  start date 31/7/26
-
-
-# class Students: 
-#   age = 0
-#   name = ""
-#   school = '"'
-#   marks = 0     # all this we can say attributes  ,properties , variable 
-
-# class AIMLstudnts:
-#   pass
-
-# class BankAccout:
-#   pass
-
-# myStudents = Students() # myStudents creating a object, () is a consrructor ,  students is class
+ OBJECT ORIENTED PROGRAMMING 
+ start date 31/7/26
 
 
-# class Students:
-#   name = ""
-#   age = 0
-#   gender = "M"
-#   #class variable / class proprties
+class Students: 
+  age = 0
+  name = ""
+  school = '"'
+  marks = 0     # all this we can say attributes  ,properties , variable 
+
+class AIMLstudnts:
+  pass
+
+class BankAccout:
+  pass
+
+myStudents = Students() # myStudents creating a object, () is a consrructor ,  students is class
+
+
+class Students:
+  name = ""
+  age = 0
+  gender = "M"
+  #class variable / class proprties
   
-#   # Properties defined in class method
-#   #  => Instance Variables
-#   def add_marks(self , marks):
-#     self.marks = marks
+  # Properties defined in class method
+  #  => Instance Variables
+  def add_marks(self , marks):
+    self.marks = marks
     
-# aditya = Students()
-# print("aditya.name :" , aditya.name)   
-# print("aditya.age :" , aditya.age)
-# print("aditya.gender:" , aditya.gender)
-# aditya.add_marks()
-# print("aditya.marks :" , aditya.marks) 
+aditya = Students()
+print("aditya.name :" , aditya.name)   
+print("aditya.age :" , aditya.age)
+print("aditya.gender:" , aditya.gender)
+aditya.add_marks()
+print("aditya.marks :" , aditya.marks) 
 
 
 
-# class ExampleClass:
-#   def __init__(self,val = 1):
-#     self.first = val
-#     def set_second(self , val ):
-#      self.second = val 
+class ExampleClass:
+  def __init__(self,val = 1):
+    self.first = val
+    def set_second(self , val ):
+     self.second = val 
     
-# example_object_1 = ExampleClass()
-# example_object_1 = ExampleClass(2)
-# example_object_2.set_second(3)
-# example_object_ = ExampleClass(4)
-# example_object_3.third = 5  
-# print("-===================-")
-# print("example_object_1", example_object_1)
-# print("example_object_2" , example_object_2)
-# print("example_object_3" , example_object_3)
-# print("-===================-")
-# print(example_object_1.__dict__)
-# print(example_object_2.__dict__)
-# print(example_object_3.__dict__)
-# print("-===============-")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+example_object_1 = ExampleClass()
+example_object_1 = ExampleClass(2)
+example_object_2.set_second(3)
+example_object_ = ExampleClass(4)
+example_object_3.third = 5  
+print("-===================-")
+print("example_object_1", example_object_1)
+print("example_object_2" , example_object_2)
+print("example_object_3" , example_object_3)
+print("-===================-")
+print(example_object_1.__dict__)
+print(example_object_2.__dict__)
+print(example_object_3.__dict__)
+print("-===============-")
 
 
